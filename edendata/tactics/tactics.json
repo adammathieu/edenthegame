@@ -1,0 +1,12 @@
+[
+	{
+		        "name": "Srpint",
+		        "type": "Tactique",
+		        "description": "Désignez un combatant allié de type Humain ou Mutant.\nPour sa prochaine action de déplacement ce tour, il pourra se déplacer de 15cm maximum."
+	},
+	{
+		        "name": "Enragement",
+		        "type": "Tactique - Annulation (3ps)",
+		        "description": "Le combatant de votre choix gagne un marqueur Rage"
+	} 
+]
