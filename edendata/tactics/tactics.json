@@ -1,12 +1,92 @@
 [
 	{
-		        "name": "Srpint",
+		        "name": "Protocole CX-2",
+		        "type": "Tactique",
+		        "description": "Défaussez une carte amélioration de votre choix associé à un combattant allié.\nChoisissez une nouvelle carte amélioration et associez-là à ce combattant allié en respectant les règles normales d'association des cartes améliorations"
+	},
+	{
+		        "name": "Sprint",
 		        "type": "Tactique",
 		        "description": "Désignez un combatant allié de type Humain ou Mutant.\nPour sa prochaine action de déplacement ce tour, il pourra se déplacer de 15cm maximum."
+	},
+	{
+		        "name": "Zone Contaminée",
+		        "type": "Tactique - Premier tour",
+		        "description": "Si votre chef ne possède pas le type Mutant, cette carte est sans effet.\nSinon, placez cette carte sur le champ de bataille à plus de 5 cm de tout combattant, de tout bord de table et de tout marqueur objectif.\nElle reste en jeu jusqu'à la fin de la partie et représente une zone contaminée.\nSi un combattant advrese pénètre	même partiellement dans cette zone contaminée, ou s'active en étant même partiellement dans cette zone contaminée, il gagne un pion poison et un pion ralentissement.\nChaque combattant ne peut subir ces effets qu'une fois par tour.\nSi un combattant allié pénètre même partiellement dans cette zone contaminée, retirez cette dernière du champ de bataille."
+	},
+	{
+		        "name": "Cri du Clan Bamaka",
+		        "type": "Tactique",
+		        "description": "Gagner un nombre de PS équivalent au nombre de PC perdu par un combattant adverse à chaque fois qu'un combattant allié du CLan Bamaka effectue une attaque de corps à corps."
+	},
+	{
+		        "name": "Impétuosité",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant allié libre et ne possédant aucun pion Peur.\nIl perd un PA et vous pouvez immédiatement le déplacer de 5 cm ou moins si ce déplacement l'amène au contact d'un combattant adverse."
+	},
+	{
+		        "name": "Avantage décisif",
+		        "type": "Tactique",
+		        "description": "A chaque fois qu'un combattant adverse est mis hors de combat par un combattant allié situé à 15 cm ou moins d'un combattant allié de type Janissaire, vous gagnez immédiatement 5 PS."
+	},
+	{
+		        "name": "Encouragement",
+		        "type": "Tactique",
+		        "description": "Retirez un marqueur Peur d'un combattant allié de votre choix.\nVous pouvez payer 2 PS pour enlever un marqueur Peur supplémentaire de ce combattant.\nIl n'est pas possible de retirer plus de 2 marqueurs Peur avec cette carte tactique."
 	},
 	{
 		        "name": "Enragement",
 		        "type": "Tactique - Annulation (3ps)",
 		        "description": "Le combatant de votre choix gagne un marqueur Rage"
-	} 
+	},
+	{
+		        "name": "Adrénaline",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant allié de type Mutant. Il gagne immédiatement 1 PA et un pion Rallentissement."
+	},
+	{
+		        "name": "Guetteur",
+		        "type": "Tactique - Premier tour",
+		        "description": "Tous les combattants adverses situés à 10 cm ou moins d'un de vos combattants de type Pisteur doivent être redéployés pour se trouver à plus de 10 cm de ces combattants.\nLes combattants forcés de se redéployer doivent respecter les restrictions de leur Mission et/ou de leurs capacités spéciales."
+	},
+	{
+		        "name": "Carburant expérimental",
+		        "type": "",
+		        "description": "Désignez un Séraphin allié. Défaussez une de ses cartes manoeuvres et attribuez-lui une nouvelle carte manoeuvre à la place"
+	},
+	{
+		        "name": "Vice",
+		        "type": "",
+		        "description": "Désignez un combattant adverse situés à 10 cm d'un combattant allié de type Seraphin.\nPour chacune des ses capacités spéciales, ce combattant peut choisir entre perdre 1 PA ou perdre l'usage de cette capacité jusqu'à la fin du tour."
+	},
+	{
+		        "name": "Herbes Médicinales",
+		        "type": "Tactique",
+		        "description": "Tous les combattants alliés de type Humain ou Mutant gagnent la capacité spéciale suivante:\nSoin (1 PA):Le combattant se soigne d'1 PC le membre de son choix."
+	},
+	{
+		        "name": "Garde du Corps",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant allié de type Escorteur.\nSi un combattant alié, situé à 5 cm ou moins, du combattant de type Escorteur précédemment désigné subit des blessures, vous pouvez attribuer toutes ces blessures dans un membre de votre choix du combattant de type Escorteur précédemment désigné."
+	},
+	{
+		        "name": "Inferno",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant allié. Lorsque ce combattant effectue une attaque de corps à corps, lancez 1D6 supplémentaire pour le jet de CBT de ce combattant pour chaque pion Brûlure possédé par la cible de cette attaque."
+	},
+	{
+		        "name": "Péchés Capitaux",
+		        "type": "",
+		        "description": "Choisissez un combattant allié de type Seraphin et défaussez une de ses cartes Manoeuvres.\nEn échange, appliquez l'effet ci-dessous correspondant au nom de la moto du Séraphin désigné.\nVous pouvez payer 2 PS supplémentaires pour choisir l'effet de votre choix sans tenir compte du nom de la moto du Séraphin.\nColère: le Séraphin désigné gagne +1 CBT jusqu'à la fin du tour.\nEnvie: le Séraphin désigné gagne +1 RAP jusqu'à la fin du tour.\nLuxure: le Séraphin désigné est immunisé aux effets des états Ralentissement et Poison jusqu'à la fin du tour.\nGourmandise: le Séraphin désigné est soigné de 2 PC de votre choix.\nAvarice: Gagnez 5 PS.\nOrgueil: le Séraphin désigné gagne +1 en VIG. Ce bonus est immédiatement et définitivement perdu si sa VIG devient supérieure ou égale à 6 à n'importe quel moment lors de ce tour.\nParesse: Tous les combattants au contact du Séraphin perdent 1 PA."
+	},
+	{
+		        "name": "Cible Prioritaire",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant adverse. Jusqu'à la fin du tour, vos combattants peuvent effectuer des actions de tir dont la cible est le combattant précédemment désigné même s'il n'est pas le combattant le plus proche."
+	},
+	{
+		        "name": "Héroïsme",
+		        "type": "Tactique",
+		        "description": "Désignez un combattant allié dont la CBT est inférieur ou égal à 5. Jusqu'à la fin du tour, ce combattant pourra relancer une fois jusqu'à 2 échecs d'un seul jet de caractéristiques de votre choix."
+	},
 ]
