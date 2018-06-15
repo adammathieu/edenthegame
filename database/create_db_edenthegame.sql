@@ -1,3 +1,4 @@
+#CREATE DB edendata;
 CREATE SCHEMA edenthegame;
 
 \i create_table_factions.sql

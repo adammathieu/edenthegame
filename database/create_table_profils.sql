@@ -1,9 +1,7 @@
 -- Table: profils
--- DROP TABLE profils;
--- profils Table 
 
 SET search_path TO edenthegame;
-
+DROP TABLE profils;
 CREATE TABLE profils
 (	
 	id  integer NOT NULL PRIMARY KEY,	

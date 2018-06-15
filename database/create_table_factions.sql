@@ -1,9 +1,7 @@
 -- Table: factions
--- DROP TABLE factions;
-
--- Factions Table 
 
 SET search_path TO edenthegame;
+DROP TABLE factions;
 
 CREATE TABLE factions
 (	

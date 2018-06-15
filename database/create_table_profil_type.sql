@@ -1,9 +1,7 @@
 -- Table: profil_types
--- DROP TABLE profil_types;
--- profil_types Table 
 
 SET search_path TO edenthegame;
-
+DROP TABLE profil_types;
 CREATE TABLE profil_types
 (	
 	id  integer NOT NULL PRIMARY KEY,	

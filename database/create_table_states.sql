@@ -1,9 +1,7 @@
 -- Table: states
--- DROP TABLE states;
--- states Table 
 
 SET search_path TO edenthegame;
-
+DROP TABLE states;
 CREATE TABLE states
 (	
 	id  integer NOT NULL PRIMARY KEY,							

@@ -1,9 +1,7 @@
 -- Table: stigmates
--- DROP TABLE stigmates;
--- stigmates Table 
 
 SET search_path TO edenthegame;
-
+DROP TABLE stigmates;
 CREATE TABLE stigmates
 (	
 	id  integer NOT NULL PRIMARY KEY,							

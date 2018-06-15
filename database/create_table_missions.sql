@@ -1,9 +1,7 @@
 -- Table: missions
--- DROP TABLE missions;
--- missions Table 
 
 SET search_path TO edenthegame;
-
+DROP TABLE missions;
 CREATE TABLE missions
 (	
 	id  integer NOT NULL PRIMARY KEY,	

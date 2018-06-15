@@ -1,9 +1,7 @@
 -- Table: tactics
--- tactics Table 
 
 SET search_path TO edenthegame;
- DROP TABLE tactics;
-
+DROP TABLE tactics;
 CREATE TABLE tactics
 (	
 	id SERIAL PRIMARY KEY NOT NULL,	
