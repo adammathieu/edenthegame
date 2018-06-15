@@ -1,0 +1,12 @@
+[
+  {
+		        "name": "Aux Quatre Vents",
+		        "type": "Mission Secrète - Déploiement Embuscade",
+		        "description": "A la fin de la partie comptez vos PV comme suit:\nChaque combattant adverse éliminé durant la partie par un de vos combattants vous rapporte sa valeur en PV.\nMarquez 15 PV pour chacune des zones à 5 cm d'un coin du terrain qui est occupée par un combattant allié."
+	},
+	{
+		        "name": "Le Guet-Apens",
+		        "type": "Mission Secrète - Déploiement Embuscade",
+		        "description": "A la fin de la partie comptez vos PV comme suit:\n- Chaque combattant adverse éliminé durant la partie par un de vos combattants rapporte en PV sa valeur +5.\n- Chaque combattant adverse blessé (au moins un membre) rapporte la moitié de sa valeur en PV."
+  }
+]
