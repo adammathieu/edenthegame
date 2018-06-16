@@ -18,38 +18,18 @@ def connectToDB(dbname,user):
 	return cur,conn
 
 def insert_json(cursor,table,field,data):
-	""" insert a new json into the table.field """
+	""" insert a new json into the table.field column """
 	sql="INSERT INTO edenthegame." + table + " (" + field + ") VALUES (%s)"
 	print(sql)
-	#cursor.execute(sql,(json.dumps(data),))
 	try:
 		cursor.execute(sql,(json.dumps(data),))
 	except:
 		print("Not able to execute sql request " + sql)
-
-
-def insert_tactics(cursor,tactic):
-	""" insert a new tactic into the tactics table """
-	sql="INSERT INTO edenthegame.tactics (tactic) VALUES (%s)"
-	try:
-		cursor.execute(sql,(json.dumps(tactic),))
-	except:
-		print("Not able to execute sql request " + sql)
-
-
-def insert_missions(cursor,mission):
-	""" insert a new mission into the missions table """
-	sql="INSERT INTO edenthegame.missions (mission) VALUES (%s)"
-	try:
-		cursor.execute(sql,(json.dumps(mission),))
-	except:
-		print("Not able to execute sql request " + sql)		
 		
 if __name__ == "__main__":
 	cur,conn = connectToDB('hgf','postgres')
 	data = readJsonFile('tactics.json')	#data is a list
 	for el in data:
-		#insert_tactics(cur,el)
 		insert_json(cur,"tactics","tactic",el)
 	conn.commit()
 	conn.close()
