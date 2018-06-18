@@ -11,9 +11,9 @@ ADD app.py /tmp/app.py
 ADD gunicorn_settings.py /tmp/gunicorn_settings.py
 WORKDIR /tmp
 
-# Run the app
+# Set Env variable
 EXPOSE 5000
-#ENTRYPOINT ["/usr/bin/python", "/tmp/hello.py"]
-#ENTRYPOINT ["/usr/local/bin/gunicorn","-b",":5000","-workers","2","hello:app"]
+ENV FLASK_ENV="docker"
+
+# Run the app
 ENTRYPOINT ["/usr/local/bin/gunicorn","-c","/tmp/gunicorn_settings.py","app:app"]
-#ENTRYPOINT ["/bin/bash"]
