@@ -1,0 +1,14 @@
+<html>
+    <head>
+      {% if title %}
+      <title>{{ title }} - database</title>
+      {% else %}
+      <title>Welcome to Eden the Game Database</title>
+      {% endif %}
+    </head>
+    <body>
+        <div>Eden the game: <a href="/index">Home</a></div>
+        <hr>
+        {% block content %}{% endblock %}
+    </body>
+</html>
