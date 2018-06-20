@@ -6,6 +6,10 @@ addons:
 env:
   - APP_SETTINGS="config.DevelopmentConfig"
   - FLASK_APP=edenthegame.py
-  - DATABASE_URL="postgresql://localhost/edendata"
+  - FLASK_POSTGRES_URL="127.0.0.1:5432"
+  - FLASK_POSTGRES_USER="postgres"
+  - FLASK_POSTGRES_PW="postgres"
+  - FLASK_POSTGRES_DB="edendatatest"
+  - DATABASE_URL="postgresql+psycopg2://"
 script:
     - python test_app.py
