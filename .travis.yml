@@ -4,6 +4,7 @@ python:
 addons:
     postgresql: "9.6"
 env:
+  - APP_SETTINGS="config.DevelopmentConfig"
   - FLASK_APP=edenthegame.py
   - DATABASE_URL="postgresql://localhost/edendata"
 script:
