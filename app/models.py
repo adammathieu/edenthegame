@@ -1,5 +1,6 @@
 from app import db
-from sqlalchemy.dialects.postgresql import JSON, ARRAY
+from sqlalchemy.dialects.postgresql import JSON
+from sqlalchemy.orm import relationship
 
 class Factions(db.Model):
 	__tablename__ = 'factions'
@@ -99,6 +100,28 @@ class Capacites(db.Model):
 	def __repr__(self):
 		return '<id {}>'.format(self.id)
 
+# class ProfilsEquipements(db.Model):
+# 	__tablename__ = 'profils_equipements'
+
+# 	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
+# 	equipements_id = db.Column(db.Integer, db.ForeignKey('equipements.id'))
+
+# class ProfilsCapacites(db.Model):
+# 	__tablename__ = 'profils_capacites'
+
+# 	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
+# 	capacites_id = db.Column(db.Integer, db.ForeignKey('capacites.id'))
+
+profilsequipements = db.Table('profils_equipements', db.Model.metadata,
+    db.Column('profils_id', db.Integer, db.ForeignKey('profils.id')),
+    db.Column('equipements_id', db.Integer, db.ForeignKey('equipements.id'))
+)
+
+profilscapacites = db.Table('profils_capacites', db.Model.metadata,
+    db.Column('profils_id', db.Integer, db.ForeignKey('profils.id')),
+    db.Column('capacites_id', db.Integer, db.ForeignKey('capacites.id'))
+)
+
 class Profils(db.Model):
 	__tablename__ = 'profils'
 
@@ -109,23 +132,11 @@ class Profils(db.Model):
 	faction_id = db.Column(db.Integer, db.ForeignKey('factions.id'))
 	stigmate_id = db.Column(db.Integer, db.ForeignKey('stigmates.id'))
 	profiltype_id = db.Column(db.Integer, db.ForeignKey('profiltype.id'))
-	relationship('ProfilsEquipements', uselist=True, backref='profils')
-	relationship('ProfilsCapacites', uselist=True, backref='profils')
+	relationship('Equipements', secondary=profilsequipements, backref='profils', uselist=True)
+	relationship('Capacites', secondary=profilscapacites, backref='profils', uselist=True)
 
 	def __init__(self,name):
 		self.name = name
 
 	def __repr__(self):
 		return '<Profil {},{}>'.format(self.name,self.value)
-
-class ProfilsEquipements(db.Model):
-	__tablename__ = 'profils_equipements'
-
-	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
-	equipements_id = db.Column(db.Integer, db.ForeignKey('equipements.id'))
-
-class ProfilsCapacites(db.Model):
-	__tablename__ = 'profils_capacites'
-
-	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
-	capacites_id = db.Column(db.Integer, db.ForeignKey('capacites.id'))
