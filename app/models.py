@@ -1,5 +1,5 @@
 from app import db
-from sqlalchemy.dialects.postgresql import JSON
+from sqlalchemy.dialects.postgresql import JSON, ARRAY
 
 class Factions(db.Model):
 	__tablename__ = 'factions'
@@ -74,3 +74,58 @@ class ProfilType(db.Model):
 
 	def __repr__(self):
 		return '<Type de Profil {}>'.format(self.name)
+
+class Equipements(db.Model):
+	__tablename__ = 'equipements'
+
+	id = db.Column(db.Integer, primary_key=True)
+	equipement = db.Column(JSON)
+
+	def __init__(self,equipement):
+		self.equipement = equipement
+
+	def __repr__(self):
+		return '<id {}>'.format(self.id)
+
+class Capacites(db.Model):
+	__tablename__ = 'capacites'
+
+	id = db.Column(db.Integer, primary_key=True)
+	capacite = db.Column(JSON)
+
+	def __init__(self,capacite):
+		self.capacite = capacite
+
+	def __repr__(self):
+		return '<id {}>'.format(self.id)
+
+class Profils(db.Model):
+	__tablename__ = 'profils'
+
+	id = db.Column(db.Integer, primary_key=True)
+	name = db.Column(db.String(64), index=True, unique=True)
+	value = db.Column(db.String(8), index=True, unique=True)
+	caractéristiques = db.Column(JSON)
+	faction_id = db.Column(db.Integer, db.ForeignKey('factions.id'))
+	stigmate_id = db.Column(db.Integer, db.ForeignKey('stigmates.id'))
+	profiltype_id = db.Column(db.Integer, db.ForeignKey('profiltype.id'))
+	relationship('ProfilsEquipements', uselist=True, backref='profils')
+	relationship('ProfilsCapacites', uselist=True, backref='profils')
+
+	def __init__(self,name):
+		self.name = name
+
+	def __repr__(self):
+		return '<Profil {},{}>'.format(self.name,self.value)
+
+class ProfilsEquipements(db.Model):
+	__tablename__ = 'profils_equipements'
+
+	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
+	equipements_id = db.Column(db.Integer, db.ForeignKey('equipements.id'))
+
+class ProfilsCapacites(db.Model):
+	__tablename__ = 'profils_capacites'
+
+	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
+	capacites_id = db.Column(db.Integer, db.ForeignKey('capacites.id'))

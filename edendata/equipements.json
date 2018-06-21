@@ -1,0 +1,47 @@
+[
+	{
+		        "name": "Epaulière",
+		        "catégorie": "Pr",
+		        "description": "Bras+1"
+	},
+	{
+		        "name": "Cerclage Abdominal",
+		        "type": "Pr",
+		        "description": "Torse+1"
+	},
+	{
+		        "name": "Bouclier",
+		        "type": "Pr",
+		        "description": "Bras+1, Torse+1"
+	},
+	{
+		        "name": "Masque de Survie",
+		        "type": "Pr",
+		        "description": "Tête+1"
+	},
+	{
+		        "name": "Arbalète",
+		        "type": "Tir",
+		        "description": "Portée (20)"
+	},
+	{
+		        "name": "Fusée de Détresse",
+		        "type": "Tir",
+		        "description": "Portée (20), CBT+2, Pui(2), 1/partie"
+	},
+	{
+		        "name": "Tronçonneuse",
+		        "type": "Tech",
+		        "description": ""
+	},
+	{
+		        "name": "Scie Circulaire",
+		        "type": "Tech",
+		        "description": ""
+	},
+	{
+		        "name": "Laboratoire Portatif",
+		        "type": "Tech",
+		        "description": ""
+	}
+]
