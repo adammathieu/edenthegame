@@ -6,7 +6,7 @@
 		        "CBT": "8/4 wwwrr 2",
 		        "VIG": "4/3 wwwrrr 3,4",
 		        "RAP": "5/3 wwwrrr 5,6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "NGWANE GRIFFE-ECLAIR",
@@ -15,7 +15,7 @@
 		        "CBT": "8/5 wwwrr 2",
 		        "VIG": "4/3 wwwrrr 3,4",
 		        "RAP": "5/6 wwwrrr 5,6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "ABAMA GRAND-VENTRE",
@@ -24,7 +24,7 @@
 		        "CBT": "4/3 wwrrr 2",
 		        "VIG": "5/4 wwwrrr 3,4",
 		        "RAP": "3/2 wwwrr 5,6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "SIGWANA ESPRIT-CLAIR",
@@ -33,7 +33,7 @@
 		        "CBT": "3/2 wwrr 2,3",
 		        "VIG": "3/2 wwwrr 4,5",
 		        "RAP": "4/3 wwrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "NGOBO BRAS-VIF",
@@ -42,7 +42,7 @@
 		        "CBT": "5/4 wwwrr 2,3",
 		        "VIG": "4/2 wwwrr 4,5",
 		        "RAP": "6/4 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "TUKWILA CROC-SANGLANT",
@@ -50,8 +50,8 @@
 		        "PSI": "2/1 wwrrr 1",
 		        "CBT": "6/4 wwwrr 2/3",
 		        "VIG": "4/3 wwwrrr 4,5",
-		        "RAP": "4/3 wwwrrr 	6",
-				"socle": "40mm",
+		        "RAP": "4/3 wwwrrr 6",
+				"socle": "40mm"
 	},
 	{
 				"name": "BAK",
@@ -60,7 +60,7 @@
 		        "CBT": "3/2 wwrrr 3",
 		        "VIG": "3/2 wwwrrr 4,5",
 		        "RAP": "4/3 wwwrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "DACKE",
@@ -69,7 +69,7 @@
 		        "CBT": "3/2 wwrr 3",
 		        "VIG": "3/2 wwwrr 4,5",
 		        "RAP": "4/3 wwrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "JUMAMOSI OEIL-SINISTRE",
@@ -78,7 +78,7 @@
 		        "CBT": "3/2 wwrr 2,3",
 		        "VIG": "3/2 wwwrr 4,5",
 		        "RAP": "4/3 wwrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "TARAR GRANDS-PAS",
@@ -86,8 +86,8 @@
 		        "PSI": "4/6 wwrrrr 1",
 		        "CBT": "6/4 wwwrrrr 2",
 		        "VIG": "4/3 wwwwrrr 3,4",
-		        "RAP": "4/3 wwwwrrr	5,6",
-				"socle": "40mm",
+		        "RAP": "4/3 wwwwrrr 5,6",
+				"socle": "40mm"
 	},
 	{
 				"name": "GWALA ET AMAGUDU YEUX-DE-LUNE",
@@ -96,7 +96,7 @@
 		        "CBT": "4/3 wwrrr 3",
 		        "VIG": "4/3 wwwrrr 4,5",
 		        "RAP": "4/3 wwwrr 6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "JENDAYI OMBRE-FURTIVE",
@@ -105,7 +105,7 @@
 		        "CBT": "4/3 wwrrr 2,3",
 		        "VIG": "4/3 wwwrr 4,5",
 		        "RAP": "5/4 wwwwr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "FULAYAN VENTRE-DOUX",
@@ -114,7 +114,7 @@
 		        "CBT": "3/2 wrrr 2,3",
 		        "VIG": "3/2 wwrr 4,5",
 		        "RAP": "3/2 wwrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "EKEVU OEIL-ASTUCIEUX",
@@ -123,7 +123,7 @@
 		        "CBT": "5/3 wwwwrr 2,3",
 		        "VIG": "4/3 wwwwrr 4,5",
 		        "RAP": "4 wwwww 6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "NGOZI SOUFFLE-COURT",
@@ -133,7 +133,7 @@
 		        "VIG": "4/3 wwwrr 4",
 		        "RAP": "6/4 wwwrr 5",
 		        "monture": "www 6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "SABAKA PIED-LOURD",
@@ -142,7 +142,7 @@
 		        "CBT": "8/5 wwwrrr 2,3",
 		        "VIG": "5/4 wwwwrrr 4,5",
 		        "RAP": "4/3 wwwwwr 6",
-				"socle": "50mm",
+				"socle": "50mm"
 	},
 	{
 				"name": "DHAMBIZAO TISSE-FOLIE",
@@ -151,7 +151,7 @@
 		        "CBT": "4/3 wwwwrr 2,3",
 		        "VIG": "3/2 wwwrr 4,5",
 		        "RAP": "5/4 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "ZAAFARANI LANGUE-ACERÈE",
@@ -160,7 +160,7 @@
 		        "CBT": "3/2 wwwrrr 2,3",
 		        "VIG": "4/3 wwwrrr 4,5",
 		        "RAP": "3/2 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "MBONGA COEUR-DISCRET",
@@ -169,7 +169,7 @@
 		        "CBT": "4/3 wwwrr 3",
 		        "VIG": "3/2 wwwrr 4,5",
 		        "RAP": "5/3 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "SEKONGO OEIL-JAUNE",
@@ -178,7 +178,7 @@
 		        "CBT": "3/2 wwwrr 3",
 		        "VIG": "4/3 wwwrrr 4,5",
 		        "RAP": "6/4 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "FELINDRA TÊTE-DE-TIGRE",
@@ -187,7 +187,7 @@
 		        "CBT": "3/2 wwwrr 2,3",
 		        "VIG": "4/3 wwrrr 4,5",
 		        "RAP": "5/4 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "NDULU AILES D'ACIER",
@@ -196,7 +196,7 @@
 		        "CBT": "5/4 wwwwrr 2,3",
 		        "VIG": "4/3 wwwrr 4,5",
 		        "RAP": "4/2 wwrrr 6",
-				"socle": "40mm",
+				"socle": "40mm"
 	},
 	{
 				"name": "KELISHA CALME-FOUGUE",
@@ -205,7 +205,7 @@
 		        "CBT": "4/2 wwwrr 2,3",
 		        "VIG": "4/3 wwwrr 4,5",
 		        "RAP": "4/2 wwrrr 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "KHELIKE MILLE-ÂMES",
@@ -215,7 +215,7 @@
 		        "VIG": "4/2 wwwrr 3,4",
 		        "RAP": "5/4 wwwrr 5",
 		        "monture": "ww 6",
-				"socle": "30mm",
+				"socle": "30mm"
 	},
 	{
 				"name": "KATANGA CHATIMENT-FUNÈBRE",
@@ -224,6 +224,6 @@
 		        "CBT": "7/6 wwwrrr 2",
 		        "VIG": "5/4 wwwwwrr 3,4",
 		        "RAP": "4/3 wwwrrr 5,6",
-				"socle": "50mm",
+				"socle": "50mm"
 	}
 ]
