@@ -27,7 +27,7 @@
 	{
 		        "name": "Fusée de Détresse",
 		        "type": "Tir",
-		        "description": "Portée (20), CBT+2, Pui(2), 1/partie"
+		        "description": "Portée(20), CBT+2, Pui(2), 1/partie"
 	},
 	{
 		        "name": "Tronçonneuse",
@@ -43,5 +43,45 @@
 		        "name": "Laboratoire Portatif",
 		        "type": "Tech",
 		        "description": ""
+	},
+	{
+		        "name": "Sagaie",
+		        "type": "Tir",
+		        "description": "CBT-3 ,Portée(25), Pui(2), 1/partie"
+	},
+	{
+		        "name": "Peau écailleuse",
+		        "type": "Pr",
+		        "description": "Complète+1"
+	},
+	{
+		        "name": "Bidon de dechet corrosifs",
+		        "type": "Souffle/Tech",
+		        "description": "Incapacitant/1, Poison/1, 1/partie"
+	},
+	{
+		        "name": "Bolas",
+		        "type": "Tir",
+		        "description": "CBT+1, Portée(15), Pui(1), 2/partie"
+	},
+	{
+		        "name": "Nuée d'araignée",
+		        "type": "Jet",
+		        "description": "Explosif(0), Portée(15), 1/tour"
+	},
+	{
+		        "name": "Sarbacanne",
+		        "type": "Tir",
+		        "description": "CBT+1, Portée(15), Pui(0)"
+	},
+	{
+		        "name": "Lance sacrèe",
+		        "type": "Tir",
+		        "description": "CBT+0, Portée(25), Pui(2), 1/partie"
+	},
+	{
+		        "name": "Armure bricolée",
+		        "type": "Pr/Tech",
+		        "description": "Torse+1, Jambes+1"
 	}
 ]
