@@ -83,5 +83,35 @@
 		        "name": "Armure bricolée",
 		        "type": "Pr/Tech",
 		        "description": "Torse+1, Jambes+1"
+	},
+	{
+		        "name": "Colère",
+		        "type": "Moto/3, Tech",
+		        "description": ""
+	},
+	{
+		        "name": "Plaque pectorale",
+		        "type": "Pr",
+		        "description": "Torse+2"
+	},
+	{
+		        "name": "Fusil à phosphore",
+		        "type": "Souffle, Tech",
+		        "description": "Brûlure (1), 1/tour"
+	},
+	{
+		        "name": "Masque de douleur",
+		        "type": "Pr",
+		        "description": "Tête+1"
+	},
+	{
+		        "name": "Renfort pectoral",
+		        "type": "Pr",
+		        "description": "Torse+1"
+	},
+	{
+		        "name": "Luxure",
+		        "type": "Moto/2, Tech",
+		        "description": ""
 	}
 ]
