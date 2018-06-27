@@ -1,5 +1,5 @@
 from app import db
-from sqlalchemy.dialects.postgresql import JSON
+from sqlalchemy.dialects.postgresql import JSONB
 from sqlalchemy.orm import relationship
 
 class Factions(db.Model):
@@ -44,7 +44,7 @@ class Missions(db.Model):
 	__tablename__ = 'missions'
 
 	id = db.Column(db.Integer, primary_key=True)
-	mission = db.Column(JSON)
+	mission = db.Column(JSONB)
 
 	def __init__(self,mission):
 		self.mission = mission
@@ -56,7 +56,7 @@ class Tactiques(db.Model):
 	__tablename__ = 'tactics'
 
 	id = db.Column(db.Integer, primary_key=True)
-	tactique = db.Column(JSON)
+	tactique = db.Column(JSONB)
 
 	def __init__(self,tactique):
 		self.tactique = tactique
@@ -80,7 +80,7 @@ class Equipements(db.Model):
 	__tablename__ = 'equipements'
 
 	id = db.Column(db.Integer, primary_key=True)
-	equipement = db.Column(JSON)
+	equipement = db.Column(JSONB)
 
 	def __init__(self,equipement):
 		self.equipement = equipement
@@ -92,25 +92,13 @@ class Capacites(db.Model):
 	__tablename__ = 'capacites'
 
 	id = db.Column(db.Integer, primary_key=True)
-	capacite = db.Column(JSON)
+	capacite = db.Column(JSONB)
 
 	def __init__(self,capacite):
 		self.capacite = capacite
 
 	def __repr__(self):
 		return '<id {}>'.format(self.id)
-
-# class ProfilsEquipements(db.Model):
-# 	__tablename__ = 'profils_equipements'
-
-# 	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
-# 	equipements_id = db.Column(db.Integer, db.ForeignKey('equipements.id'))
-
-# class ProfilsCapacites(db.Model):
-# 	__tablename__ = 'profils_capacites'
-
-# 	profils_id = db.Column(db.Integer, db.ForeignKey('profils.id'))
-# 	capacites_id = db.Column(db.Integer, db.ForeignKey('capacites.id'))
 
 profilsequipements = db.Table('profils_equipements', db.Model.metadata,
     db.Column('profils_id', db.Integer, db.ForeignKey('profils.id')),
@@ -126,17 +114,16 @@ class Profils(db.Model):
 	__tablename__ = 'profils'
 
 	id = db.Column(db.Integer, primary_key=True)
-	name = db.Column(db.String(64), index=True, unique=True)
-	value = db.Column(db.String(8), index=True, unique=True)
-	caractéristiques = db.Column(JSON)
+	characteristics = db.Column(JSONB)
 	faction_id = db.Column(db.Integer, db.ForeignKey('factions.id'))
 	stigmate_id = db.Column(db.Integer, db.ForeignKey('stigmates.id'))
 	profiltype_id = db.Column(db.Integer, db.ForeignKey('profiltype.id'))
 	relationship('Equipements', secondary=profilsequipements, backref='profils', uselist=True)
 	relationship('Capacites', secondary=profilscapacites, backref='profils', uselist=True)
 
-	def __init__(self,name):
-		self.name = name
+	def __init__(self,characteristics,faction_id):
+		self.characteristics = characteristics
+		self.faction_id = faction_id
 
 	def __repr__(self):
-		return '<Profil {},{}>'.format(self.name,self.value)
+		return '<Profil {}>'.format(self.id)
