@@ -1,0 +1,3 @@
+SELECT profil->>'name' FROM public.profils WHERE profil->>'stigmate' IN ('ordre', 'protection');
+SELECT * FROM public.profils WHERE profil @> '{"type":["sorcier"]}';
+SELECT profil->>'name' FROM public.profils WHERE profil @> '{"stigmate":"ordre"}';
