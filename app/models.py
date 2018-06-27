@@ -118,9 +118,8 @@ class Profils(db.Model):
 	relationship('Equipements', secondary=profilsequipements, backref='profils', uselist=True)
 	relationship('Capacites', secondary=profilscapacites, backref='profils', uselist=True)
 
-	def __init__(self,characteristics,faction_id):
-		self.characteristics = characteristics
-		self.faction_id = faction_id
+	def __init__(self,profil):
+		self.profil = profil
 
 	def __repr__(self):
 		return '<Profil {}>'.format(self.id)
