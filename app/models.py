@@ -114,10 +114,7 @@ class Profils(db.Model):
 	__tablename__ = 'profils'
 
 	id = db.Column(db.Integer, primary_key=True)
-	characteristics = db.Column(JSONB)
-	faction_id = db.Column(db.Integer, db.ForeignKey('factions.id'))
-	stigmate_id = db.Column(db.Integer, db.ForeignKey('stigmates.id'))
-	profiltype_id = db.Column(db.Integer, db.ForeignKey('profiltype.id'))
+	profil = db.Column(JSONB)
 	relationship('Equipements', secondary=profilsequipements, backref='profils', uselist=True)
 	relationship('Capacites', secondary=profilscapacites, backref='profils', uselist=True)
 
