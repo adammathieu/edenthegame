@@ -1,0 +1,63 @@
+[
+	{
+		"name": "ZAGAN",
+		"faction": "angesdedante",
+		"stigmate": "destruction",
+		"type": ["humain","seraphin"],
+		"value": "30",
+		"PSI": "4/3 wwrrr 1",
+		"CBT": "5/4 wwwwr 2,3",
+		"VIG": "5/4 wwwrr 4",
+		"RAP": "4/3 wwwrr 5",
+		"monture": "wwwww 6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Colère",
+				"type": "Moto/3, Tech",
+				"description": ""
+			}
+		],
+		"capacites": [
+			{
+				"name": "Cri sauvage",
+				"type": "Action",
+				"cout": "(2PS, 1/partie)",
+				"description": "Tous les combattants adverses situés à 7,5cm ou moins de Zagan effectuent un test de PSI de difficulté 5. Tous les combattants qui n'obtiennent aucune réussite à ce test gagnent un pion Peur."
+			},
+			{
+				"name": "Barbarie frénétique",
+				"type": "Permanent",
+				"cout": "(1/tour)",
+				"description": "A chaque fois que Zagan effectue une attaque de corps-à-corps qui met hors de combat un combattant adverse, il peut gratuitement effectuer une action d'Engagement s'il est libre ou une action d'Attaque s'il est au contact d'un combattant adverse. Cette action n'est pas comptabilisé dans le nombre maximum d'action que Zagan peut effectuer.",
+				"faq": "L'action d'engagement offerte par cette capacité n'est pas comptabilisée dans le nombre maximum d'action d'engagement du tour : cela inclut l'attaque offerte par cet engagement, qui n'est pas comptabilisée non plus. Il faut lire : 'Lorsque' plutôt que 'À chaque fois que' dans le descriptif de cette capacité. Si, suite à l'action offerte par Barbarie frénétique, le combattant met hors de combat un combattant adverse, il ne peut pas réutiliser cette capacité."
+			},
+			{
+				"name": "Pilote exceptionnel",
+				"type": "Permanent",
+				"description": "Au début du premier tour, attribuez une carte Manoeuvre supplémentaire à Zagan."
+			}
+		]
+	},
+	{
+		"name": "ZAGAN",
+		"faction": "angesdedante",
+		"stigmate": "destruction",
+		"type": ["humain","seraphin"],
+		"value": "20",
+		"PSI": "4/3 wwrrr 1",
+		"CBT": "5/3 wwwwr 2,3",
+		"VIG": "5/3 wwwrr 4",
+		"RAP": "3/2 wwwrr 5",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Barbarie frénétique",
+				"type": "Permanent",
+				"cout": "(1/tour)",
+				"description": "A chaque fois que Zagan effectue une attaque de corps-à-corps qui met hors de combat un combattant adverse, il peut gratuitement effectuer une action d'Engagement s'il est libre ou une action d'Attaque s'il est au contact d'un combattant adverse. Cette action n'est pas comptabilisé dans le nombre maximum d'action que Zagan peut effectuer.",
+				"faq": "L'action d'engagement offerte par cette capacité n'est pas comptabilisée dans le nombre maximum d'action d'engagement du tour : cela inclut l'attaque offerte par cet engagement, qui n'est pas comptabilisée non plus. Il faut lire : 'Lorsque' plutôt que 'À chaque fois que' dans le descriptif de cette capacité. Si, suite à l'action offerte par Barbarie frénétique, le combattant met hors de combat un combattant adverse, il ne peut pas réutiliser cette capacité."
+			}
+		]	
+	}
+]

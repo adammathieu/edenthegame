@@ -113,5 +113,50 @@
 		        "name": "Luxure",
 		        "type": "Moto/2, Tech",
 		        "description": ""
+	},
+	{
+		        "name": "Fouet",
+		        "type": "Tir",
+		        "description": "CBT+0, Portée(5), Pui(1)"
+	},
+	{
+		        "name": "Bras mécanique",
+		        "type": "Pr",
+		        "description": "Bras+1, Torse+1"
+	},
+	{
+		        "name": "Arbalète",
+		        "type": "Tir",
+		        "description": "Portée(20), CBT+1, Pui(2), 1/Tour"
+	},
+	{
+		        "name": "Gourmandise",
+		        "type": "Moto/2, Tech",
+		        "description": ""
+	},
+	{
+		        "name": "Envie",
+		        "type": "Moto/2, Tech",
+		        "description": ""
+	},
+	{
+		        "name": "Masque à gaz",
+		        "type": "Pr",
+		        "description": "Tête+1"
+	},
+	{
+		        "name": "Gilet pare-balle",
+		        "type": "Pr",
+		        "description": "Torse+1"
+	},
+	{
+		        "name": "Genouillère",
+		        "type": "Pr",
+		        "description": "Jambes+1"
+	},
+	{
+		        "name": "Armure",
+		        "type": "Pr",
+		        "description": "Complète+1"
 	}
 ]

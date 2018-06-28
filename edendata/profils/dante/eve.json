@@ -1,0 +1,92 @@
+[
+	{
+		"name": "EVE",
+		"faction": "angesdedante",
+		"stigmate": "changement",
+		"type": ["humain","seraphin"],
+		"value": "30",
+		"PSI": "3/2 wwrrr 1",
+		"CBT": "5/4 wwwwrr 2,3",
+		"VIG": "4/3 wwwrr 4",
+		"RAP": "5/3 wwwrr 5",
+		"monture": "wwww 6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Luxure",
+		 		"type": "Moto/2, Tech"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Innocence perdue",
+				"type": "Permanent",
+				"cout": "(2PS, 1/tour)",
+				"description": "Désignez un combattant adverse au contact d'Eve. Jusqu'à la fin du tour, chacune de ses attaques qui ciblera Eve sera effectuée en utilisant son PSI à la place de son CBT.",
+				"faq": "Innocence perdue est une capacité permanente, elle peut donc s'utiliser à tout moment. Il est possible de l'utiliser sur un combattant qui effectue un engagement (à partir du moment où celui-ci est au contact du combattant qui utilise Innocence perdue)."
+			},
+			{
+				"name": "Diversion",
+				"type": "Permanent",
+				"cout": "(1/tour)",
+				"description": "Au début du tour, juste après la désignation du Premier joueur, Eve designe un combattant adverse situé à 15cm ou moins d'elle. Celui-ci effectue immédiatement un jet de PSI avec un seuil de difficulté de 3. S'il obtient au moins un échec, il gagne la capacité suivante jusqu'à la fin du tour.\nBorné: le combattant n'est pas pris en compte pour la réalisation des objectifs de la Mission de la bande dans laquelle il est recruté. Il ignore toutes les restrictions et/ou règles spéciales de cette Mission. Il est néanmoins normalement pris en compte pour la Mission adverse.",
+				"faq": "Si le combattant ciblé par cette capacité porte un ou plusieurs marqueurs objectifs, il les conserve mais les PV ne sont pas marqués à la fin du tour. 'Diversion rend un combattant Borné pour le tour en cours. Si ce combattant élimine un adversaire lors d'une mission ou les PV sont comptabilisés à la fin de la partie, rapporte-t-il des PV?' Oui, les PV sont comptabilisés."
+			},
+			{
+				"name": "Epée d'Adamantium",
+				"type": "Permanent",
+				"description": "Lorsqu'Eve effectue une Attaque au corps-à-corps, la valeur de Protection (Pr) des équipements de sa cible est diminuée de 1 point jusqu'à la fin de cette attaque."
+			},
+			{
+				"name": "Cheffe des Anges",
+				"type": "Permanent",
+				"description": "Si Eve est le seul combattant de type Séraphin de votre bande, et si Eve est votre chef, vos cartes tactiques vous coûtent un PS de moins à jouer."
+			}
+		]
+	},
+	{
+		"name": "EVE",
+		"faction": "angesdedante",
+		"stigmate": "changement",
+		"type": ["humain","seraphin"],
+		"value": "30",
+		"PSI": "4/3 wwrrr 1",
+		"CBT": "5/4 wwwrrr 2,3",
+		"VIG": "4/3 wwwrr 4",
+		"RAP": "5/3 wwwrr 5",
+		"monture": "wwww 6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Luxure",
+		 		"type": "Moto/2, Tech"
+			},
+			{
+				"name": "Fouet",
+				"type": "Tir",
+				"description": "CBT+0, Portée(5), Pui(1)"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Innocence perdue",
+				"type": "Permanent",
+				"cout": "(2PS, 1/tour)",
+				"description": "Désignez un combattant adverse au contact d'Eve. Jusqu'à la fin du tour, chacune de ses attaques qui ciblera Eve sera effectuée en utilisant son PSI à la place de son CBT.",
+				"faq": "Innocence perdue est une capacité permanente, elle peut donc s'utiliser à tout moment. Il est possible de l'utiliser sur un combattant qui effectue un engagement (à partir du moment où celui-ci est au contact du combattant qui utilise Innocence perdue)."
+			},
+			{
+				"name": "Diversion",
+				"type": "Permanent",
+				"cout": "(1/tour)",
+				"description": "Au début du tour, juste après la désignation du Premier joueur, Eve designe un combattant adverse situé à 15cm ou moins d'elle. Celui-ci effectue immédiatement un jet de PSI avec un seuil de difficulté de 3. S'il obtient au moins un échec, il gagne la capacité suivante jusqu'à la fin du tour.\nBorné: le combattant n'est pas pris en compte pour la réalisation des objectifs de la Mission de la bande dans laquelle il est recruté. Il ignore toutes les restrictions et/ou règles spéciales de cette Mission. Il est néanmoins normalement pris en compte pour la Mission adverse.",
+				"faq": "Si le combattant ciblé par cette capacité porte un ou plusieurs marqueurs objectifs, il les conserve mais les PV ne sont pas marqués à la fin du tour. 'Diversion rend un combattant Borné pour le tour en cours. Si ce combattant élimine un adversaire lors d'une mission ou les PV sont comptabilisés à la fin de la partie, rapporte-t-il des PV?' Oui, les PV sont comptabilisés."
+			},
+			{
+				"name": "Cheffe des Anges",
+				"type": "Permanent",
+				"description": "Si Eve est le seul combattant de type Séraphin de votre bande, et si Eve est votre chef, vos cartes tactiques vous coûtent un PS de moins à jouer."
+			}
+		]
+	}
+]

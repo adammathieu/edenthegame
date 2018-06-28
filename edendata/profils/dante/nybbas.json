@@ -1,0 +1,37 @@
+[
+	{
+		"name": "NYBBAS",
+		"faction": "angesdedante",
+		"stigmate": "destruction",
+		"type": ["humain"],
+		"value": "20",
+		"PSI": "5/3 wwwrr 1",
+		"CBT": "4/3 wwrrr 2,3",
+		"VIG": "4/3 wwwrr 4/5",
+		"RAP": "5/3 wwwrr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Profanation",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant adverse est mis hors de combat à 15cm ou moins de Nybbas, placez sur la carte de Nybbas X pions Sang où X est égal à la valeur du combattant mis hors de combat divisée par 10."
+			},
+			{
+				"name": "Appât du sang",
+				"type": "Permanent",
+				"description": "Lorsque Nybbas effectue une action d'Attaque ou d'Engagement, vous pouvez placer un pion Sang sur sa carte."
+			},
+			{
+				"name": "Blasphème",
+				"type": "Action",
+				"cout": "(2/tour)",
+				"description": "Défaussez 2 pions Sang de la carte de Nybbas et choisissez l'un des effets suivants:\n -Un combattant adverse situé à 15cm ou moins de Nybbas gagne 1 pion Ralentissement.\n -Tous les combattants situés à 15cm ou moins de Nybbas perdent immédiatement tous les pions Etat qu'il possède.\n -Un combattants adverse situé à 15cm ou moins de Nybbas utilise la valeur blessée d'une de ses caractéristiques jusqu'à la fin du tour."
+			},
+			{
+				"name": "Abjuration",
+				"type": "Permanent",
+				"description": "Lorsque vous annulez une carte tactique adverse, placez 2 pions Sang sur la carte de Nybbas."
+			}
+		]
+	}
+]

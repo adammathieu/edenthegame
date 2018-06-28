@@ -1,0 +1,39 @@
+[
+	{
+		"name": "ANDRAS",
+		"faction": "angesdedante",
+		"stigmate": "chaos",
+		"type": ["humain"],
+		"value": "25",
+		"PSI": "4/2 wwrr 1",
+		"CBT": "6/5 wwwwrr 2,3",
+		"VIG": "4/3 wwrrr 4,5",
+		"RAP": "4/3 wwwrr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Plaque pectorale",
+				"type": "Pr",
+				"description": "Torse+2"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Sadisme barbare",
+				"type": "Permanent",
+				"description": "Losrque Andras inflige des blessures qui mettent hors de combat un combattant adverse, les autres combattants adverses situés à 10cm ou moins d'Andras doivent effectuer un test PSI avec un seuil de 4. Ceux qui n'obtiennent aucune réussite lors de ce test reçoivent un pion Peur."
+			},
+			{
+				"name": "Insultes",
+				"type": "Action",
+				"cout": "1PA+2PS, 1/tour",
+				"description": "Désignez un combattant adverse situé à 10cm ou moins d'Andras. Lors de sa prochaine activation, ce combattant, s'il est libre et qu'il en a la possibilité, devra effectuer une Action d'Engagement dont la cible sera Andras."			},
+			{
+				"name": "Torture",
+				"type": "Action",
+				"cout": "1PS",
+				"description": "Désignez un combattant adverse au contact d'Andras. Avant la fin de l'activation d'Andras, si ce combattant subit au moins une blessure, on considère que chacune de ses caractéristiques est égale à la valeur rouge (s'il y en a une) jusqu'à la fin du tour."
+			}
+		]
+	}
+]
