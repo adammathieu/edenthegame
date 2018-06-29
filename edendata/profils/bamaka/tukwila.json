@@ -1,0 +1,36 @@
+[
+	{
+		"name": "TUKWILA CROC-SANGLANT",
+		"faction": "bamaka",
+		"stigmate": "destruction",
+		"type": ["mutant"],
+		"value": "25",
+		"PSI": "2/1 wwrrr 1",
+		"CBT": "6/4 wwwrr 2/3",
+		"VIG": "4/3 wwwrrr 4,5",
+		"RAP": "4/3 wwwrrr 6",
+		"socle": "40mm",
+		"capacites": [
+			{
+				"name": "Esprit de Meute",
+				"type": "Permanent",
+				"description": "Tukwila bénéficie d'un bonus de +1 en PSI et en RAP tant qu'il est situé à 15cm ou moins d'un combattant allié du clan Bamaka possédant le stigmate Changement."
+			},
+			{
+				"name": "Croc d'Adamantium",
+				"type": "Permanent",
+				"description": "Lorsque Tukwila effectue une Attaque au corps-à-corps, la valeur de Protection (Pr) des équipements de sa cible est diminuée de 1 point jusqu'à la fin de cette attaque."
+			},
+			{
+				"name": "Métabolisme Mutant",
+				"type": "Permanent",
+				"description": "Au début de la phase d'intendance, soignez 1 PC dans le membre de votre choix de Tukwila."
+			},
+			{
+				"name": "Hargne du Loup",
+				"type": "Permanent",
+				"description": "A chaque fois que vous cochez le dernier PC blanc d'un membre de Tukwila, vous pouvez lui attribuer un pion Rage."
+			}
+		]
+	}
+]
