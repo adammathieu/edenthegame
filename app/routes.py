@@ -12,11 +12,9 @@ def hello_world():
 @app.route('/profils', methods=['GET','POST'])
 def profils():
 	user = {'username': 'Zagan'}
-	factionsList = Factions.query.all()
-	print(factionsList)
-	print(type(factionsList))
-	print(type(factionsList[0]))
-	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user, factions=factionsList)
+	factions = Factions.query.all()
+	factions_list = [faction.name for faction in factions]
+	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user, factions=factions_list)
 
 @app.route('/tactiques')
 def tactiques():

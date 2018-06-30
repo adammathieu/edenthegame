@@ -4,9 +4,9 @@
     <h1>Profils, {{ user.username }}!</h1>
     <h3><form action="" method='POST'>
     <select name="factions">
-        {% for faction in factionsList %}
+        {% for faction in factions %}
         print(faction.name)
-            <option value="{{ faction.name }}"{% if loop.first %} SELECTED{% endif %}>{{ faction.name }}</option>
+            <option value="{{ faction }}"{% if loop.first %} SELECTED{% endif %}>{{ faction }}</option>
         {% endfor %}
     </select>
 	</form></h3>
