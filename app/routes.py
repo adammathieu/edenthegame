@@ -14,7 +14,11 @@ def profils():
 	user = {'username': 'Zagan'}
 	factions = Factions.query.all()
 	factions_list = [faction.name for faction in factions]
-	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user, factions=factions_list)
+	types = ProfilType.query.all()
+	types_list = [typeobj.name for typeobj in types]
+	stigmates = Stigmates.query.all()
+	stigmates_list = [stigmate.name for stigmate in stigmates]
+	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user, factions=factions_list, types=types_list, stigmates=stigmates_list)
 
 @app.route('/tactiques')
 def tactiques():

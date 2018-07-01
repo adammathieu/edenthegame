@@ -2,12 +2,27 @@
 
 {% block content %}
     <h1>Profils, {{ user.username }}!</h1>
-    <h3><form action="" method='POST'>
-    <select name="factions">
+    <h3>
+    	<form action="" method='POST'>
+    	<select name="factions">
         {% for faction in factions %}
-        print(faction.name)
             <option value="{{ faction }}"{% if loop.first %} SELECTED{% endif %}>{{ faction }}</option>
         {% endfor %}
-    </select>
-	</form></h3>
+    	</select>
+		</form>
+		<form action="" method='POST'>
+    	<select name="types">
+        {% for typename in types %}
+            <option value="{{ typename }}"{% if loop.first %} SELECTED{% endif %}>{{ typename }}</option>
+        {% endfor %}
+    	</select>
+		</form>
+		<form action="" method='POST'>
+    	<select name="stigmates">
+        {% for stigmate in stigmates %}
+            <option value="{{ stigmate }}"{% if loop.first %} SELECTED{% endif %}>{{ stigmate }}</option>
+        {% endfor %}
+    	</select>
+		</form>
+	</h3>
 {% endblock %}
