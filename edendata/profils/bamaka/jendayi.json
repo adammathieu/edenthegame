@@ -1,0 +1,38 @@
+[
+	{
+		"name": "JENDAYI OMBRE-FURTIVE",
+		"faction": "bamaka",
+		"stigmate": "ordre",
+		"type": ["mutant"],
+		"value": "15",
+		"PSI": "2/1 wwrr 1",
+		"CBT": "4/3 wwrrr 2,3",
+		"VIG": "4/3 wwwrr 4,5",
+		"RAP": "5/4 wwwwr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Instinct maternel",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Jendayi Ombre-Furtive gagne un bonus de +1CBT jusqu'à la fin du tour."
+			},
+			{
+				"name": "Casse-Crâne",
+				"type": "Permanent",
+				"description": "A chaque fois que Jendayi Ombre-Furtive inflige des blessures à la tête d'un combattant adverse suite à une attaque de corps-à-corps, celui-ci reçoit également un marqueur Ralentissement."
+			},
+			{
+				"name": "Réflexe protecteur",
+				"type": "Permanent",
+				"cout": "(1PS, 1/tour)",
+				"description": "Si Jendayi Ombre-Furtive est la cible d'une attaque elle gagne, jusqu'à la fin de cette attaque, l'équipement bouclier(Pr): Tête+1, Bras+1, Torse+1."
+			},
+			{
+				"name": "Symbiose environnementale",
+				"type": "Permanent",
+				"description": "Jendayi Ombre-Furtive considère que tous les décors présents sur le terrain possède la règle spéciale Dissimulation."
+			}
+		]
+	}
+]
