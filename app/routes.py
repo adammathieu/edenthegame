@@ -1,5 +1,7 @@
 from flask import render_template
 from app import app
+from app import db
+from app.models import Factions,Stigmates,ProfilType
 
 @app.route('/')
 @app.route('/index')
@@ -7,10 +9,16 @@ def hello_world():
 	user = {'username': 'Zagan'}
 	return render_template('index.html', title='Eden The Game', user=user)
 
-@app.route('/profils')
+@app.route('/profils', methods=['GET','POST'])
 def profils():
 	user = {'username': 'Zagan'}
-	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user)
+	factions = Factions.query.all()
+	factions_list = [faction.name for faction in factions]
+	types = ProfilType.query.all()
+	types_list = [typeobj.name for typeobj in types]
+	stigmates = Stigmates.query.all()
+	stigmates_list = [stigmate.name for stigmate in stigmates]
+	return render_template('profils.html', title='Eden The Game - Cartes de profils', user=user, factions=factions_list, types=types_list, stigmates=stigmates_list)
 
 @app.route('/tactiques')
 def tactiques():

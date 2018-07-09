@@ -100,23 +100,11 @@ class Capacites(db.Model):
 	def __repr__(self):
 		return '<id {}>'.format(self.id)
 
-profilsequipements = db.Table('profils_equipements', db.Model.metadata,
-    db.Column('profils_id', db.Integer, db.ForeignKey('profils.id')),
-    db.Column('equipements_id', db.Integer, db.ForeignKey('equipements.id'))
-)
-
-profilscapacites = db.Table('profils_capacites', db.Model.metadata,
-    db.Column('profils_id', db.Integer, db.ForeignKey('profils.id')),
-    db.Column('capacites_id', db.Integer, db.ForeignKey('capacites.id'))
-)
-
 class Profils(db.Model):
 	__tablename__ = 'profils'
 
 	id = db.Column(db.Integer, primary_key=True)
 	profil = db.Column(JSONB)
-	relationship('Equipements', secondary=profilsequipements, backref='profils', uselist=True)
-	relationship('Capacites', secondary=profilscapacites, backref='profils', uselist=True)
 
 	def __init__(self,profil):
 		self.profil = profil
