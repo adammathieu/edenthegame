@@ -1,12 +1,65 @@
 [
-  {
+	{
+		        "name": "L'Evadé",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "askaris",
+		        "description": "Placez un marqueur évadé au centre du terrain. Au début du premier tour, chaque joueur reçoit 9 marqueurs Appâts qu'il doit répartir uniformément entre ses combattants. Lorsqu'un combattant met hors de combat un combattant adverse suite à une attaque de corps à corps, il récupère ses pions Appâts.\nLors de la phase d'intendance de chaque tour, chaque joueur désigne un Rabatteur. Pour être désigné Rabatteur, un combattant doit être libre (sauf s'il est de type janissaire) et situé à 10cm ou moins du marquer Evadé. Le joueur dont le Rabatteur possède le plus de pion Appâts déplace le marqueurs Evadé de 10cm de manière à ce que celui-ci se rapproche le plus possible de son Rabbateur. Pour ce déplacement, il respecte les mêmes règles que les combattants. Si les deux Rabatteurs possèdenet le même nombre de pions Appâts, le marqueur Evadé reste sur place.\n\nA la fin de chaque tour marquez 5 PV si le marqueur Evadé n'est pas dans la zone de déploiement adverse comme si elle était de type affrontement. Marquez 15 PV supplémentaires si l'Evadé est entièrement dans votre moitié de terrain et 30 PV supplémentaires s'il est entièrement dans votre zone de déploiement (de type affrontement).",
+		        "faq": "'...chaque joueur reçoit 9 pions Appâts qu'il doit répartir uniformément entre ses combattants.'\nChaque joueur commence par donner 1 pion Appât à chacun de ses combattants. Les pions Appât restant doivent être donnés à des combattants différents.\nExemple 1 : un joueur qui dispose de 7 combattants aura 1 pion Appât sur 5 combattants et 2 pions Appât sur 2 combattants. Toute autre répartition est impossible.\nExemple 2 : un joueur qui dispose de 4 combattants aura 2 pions Appât sur 3 combattants et 3 pions Appât sur un combattant. Toute autre répartition est impossible.\nLes combattants qui, par un quelconque effet de jeu, ne sont pas présents sur le terrain au début du premier tour, sont pris en compte pour la répartition des pions Appât.\nLa mission permet de gagner 5 + 15 + 30 = 50 PV maximum par tour."
+	},
+	{
+		        "name": "Récolte Génomique",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "askaris",
+		        "description": "Au début du premier tour, donnez 12 pions échantillons: 1 de valeur 40, 1 de valeur 30, 1 de valeur 20, 8 de valeur 10 et 1 de valeur 0. Il doit les attribuer uniformément et secrètement sur les cartes de ses combattants. Lorsqu'un de vos combattants infligent des blessures qui mettent hors de combat un combattant adverse, révélez les pions échantillons de ce combattant et prenez-les. Ces pions constituent votre réserve génomique. A chaque qu'un de vos combattants est retiré du terrain suite à des blessures l'ayant mis hors de combat, votre adversaire pioche au hasard un pion de votre réserve génomique et le défausse.\nA la fin de la partie, marquez un nombre de PV égal à la somme des valeurs des pions échantillons de votre réserve génomique."	
+	},
+	{
+		        "name": "Contagion",
+		        "type": "Mission Révélée - Déploiement Embuscade",
+		        "symbole": "askaris",
+		        "description": "Au début de la partie, juste après le déploiement, attribuez 1 pion Contagion à 2 combattants adverses. Au début d'un tour, pour chaque combattant doté d'au moins un pion contagion depuis le tour précédent, choisissez un des deux effets suivants:\n-Ce combattant gagne un pion contagion.\n-Un autre combattant adverse situé à 15cm ou moins gagne un pion Contagion.\n\nLorsqu'un combattant allié inflige des blessures qui mettent hors de combat un combattant ayant au moins 1 pion Contagion, récupérez ces pions Contagion. A la finde la partie, marquez 15 PV pour les 4 premiers pions Contagion récupérés. Puis 10 PV pour les 12 pions suivants récupérés. Les pions restants ne rapportent aucun PV."
+	},
+	{
+		        "name": "Repli Vers Les Zones Contaminées",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "bamaka",
+		        "description": "A la fin de la partie, chaque combattant allié situé dans la zone de déploiement adverse (comme si elle était de type Affrontement), vous permet de marquer 30 PV. Spécial: le nombre de tours de la partie est réduit de 1."
+	},
+	{
+		        "name": "Cérémonie Funéraire",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "bamaka",
+		        "description": "Le terrain est divisé en 9 zones de dimensions égales. Au centre de chaque zone, placez un marqueur Sépulcre de la taille d'un socle de 30cm. Au cours de la partie, si un combattant allié est retiré du terrain suite à des blessures qui le mettent hors de combat, remplacez le par un marqueur Défunt ayant une taille équivalente, à l'endroit où il se trouve au moment de son retrait du terrain. Tous les combattants alliés gagnent les capacités suivantes jusqu'à la fin de la partie:\nDanse macabre (1PA 1/partie): Retirez un marqueur Sépulcre au contact du combattant si celui-ci est libre. Dans ce cas, marquez 15 PV.\nPrière aux morts (1PA 1/tour): Retirez un marqueur Défunt au contact du combattant si celui-ci est libre.\nDe plus, tous les combattants alliés de type Sorcier gagnent la capacité spéciale suivante jusqu'à la fin de la partie:\nCérémonial (1PA 2/tour): Retirez un marqueur Sépulcre ou un marqueur Défunt au contact du combattant si celui-ci est libre. Dans ce cas, marquez 25 PV s'il s'agit d'un marqueur Sépulcre ou 10 PV s'il s'agit d'un marqueur Défunt.\nA la fin de la partie vous perdez 10 PV par marqueur Défunt présent sur le terrain.",
+		        "faq": "'Le terrain est divisé en 9 zones de dimensions égales.' Il faut comprendre: en neuf carrés de 20*20 cm."
+	},
+	{
+		        "name": "Infiltration",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "convoi",
+		        "description": "Tous les combattants alliés gagnent la capacité spéciale suivante:\nInfiltration (1PA 1/partie): Effectuez un déplacement en suivant les modalités et restrictions normales de cette action. Ce combattant est retiré du terrain jusqu'à la phase d'intendance du tour s'il termine ce déplacement à plus de  25cm de la ligne centrale et dans la zone de déploiement adverse comme si elle était de type Affrontement. Lors de la phase d'intendance de ce tour, il est déployé dans la zone de déploiement adverse comme si elle était de type Affrontement, à moins de 10cm de la dernière position qu'il occupait. Attribuez lui alor un marqueur infiltré.\nA la fin de la partie chaqu combattant allié présent sur le terrain et possédent un marqueur Infiltré vous rapporte 35 PV.",
+		        "faq": "Doit-on payer le coût du déplacement? Oui, il faut lire 'effectuez une action de déplacement.'' plutôt que 'effectuez un déplacement...'\nUn combattant retiré du terrain grâce à la capacité Infiltration subit-il les effets d'un éventuel pion brûlure? Oui, le combattant est retiré du terrain jusqu'à la phase d'intendance. Hors c'est durant l'étape 1 de la phase d'intendance que les effets des capacités spéciales et des missions sont résolus, c'est donc à ce moment que ton combattant revient sur le terrain. Il sera donc sur le terrain lors de la phase 3, lors de la résolution des effets des pions brûlure (voir page 21 : Phase d'intendance)."
+	},
+	{
+		        "name": "La Source Pure",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "",
+		        "description": "Avant le déploiement, placez un marqueur Source sur le terrain (dont la taille est équivalente à un socle de 40mm) au centre de la table. Durant la phase d'intendance de chaque tour comptez vos PV comme suit:\n- Chaque combattant adverse éliminé dans le tour par un de vos combattants rapportent la moitié de sa valeur en PV.\nA la fin de la partie, comptez le nombre de combattant de chaque camp au contact du marqueur Source. Si vous possédez plus de marqueur que votre adversaire, vous marquez 70 PV. Si vous en possédez autant, marquez 30 PV."
+	},
+	{
+		        "name": "Protection du Territoire",
+		        "type": "Mission Révélée - Déploiement Affrontement",
+		        "symbole": "",
+		        "description": "A la fin de la phase d'intendance de chaque tour comptez vos PV comme suit:\n- Si la somme des valeurs des combattants allié situé à 15cm ou moins du centre de la table est supérieure à celle des combatants adverses situés à 15cm ou moins du centre de la table vous marquez 25 PV."
+	},
+  	{
 		        "name": "Aux Quatre Vents",
 		        "type": "Mission Secrète - Déploiement Embuscade",
+		        "symbole": "",
 		        "description": "A la fin de la partie comptez vos PV comme suit:\nChaque combattant adverse éliminé durant la partie par un de vos combattants vous rapporte sa valeur en PV.\nMarquez 15 PV pour chacune des zones à 5 cm d'un coin du terrain qui est occupée par un combattant allié."
 	},
 	{
 		        "name": "Le Guet-Apens",
 		        "type": "Mission Secrète - Déploiement Embuscade",
+		        "symbole": "",
 		        "description": "A la fin de la partie comptez vos PV comme suit:\n- Chaque combattant adverse éliminé durant la partie par un de vos combattants rapporte en PV sa valeur +5.\n- Chaque combattant adverse blessé (au moins un membre) rapporte la moitié de sa valeur en PV."
-  }
+  	}
 ]
