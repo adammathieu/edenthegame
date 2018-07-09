@@ -1,0 +1,43 @@
+[
+	{
+		"name": "SABAKA PIED-LOURD",
+		"faction": "bamaka",
+		"stigmate": "destruction",
+		"type": ["mutant","chaka"],
+		"value": "50",
+		"PSI": "5/3 wwwrr 1",
+		"CBT": "8/5 wwwrrr 2,3",
+		"VIG": "5/4 wwwwrrr 4,5",
+		"RAP": "4/3 wwwwwr 6",
+		"socle": "50mm",
+		"capacites": [
+			{
+				"name": "Inspiration guerrière",
+				"type": "Action",
+				"cout": "(2PS, 1/tour)",
+				"description": "Attribuez un marqueur Rage à un combattant allié situé à 10cm ou moins de Sabaka."
+			},
+			{
+				"name": "Légende vivante",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Sabaka gagne 1 PA."
+			},
+			{
+				"name": "Métabolisme mutant",
+				"type": "Permanent",
+				"description": "Au début de la phase d'intendance, soignez un PC dans le membre de votre choix de Sabaka Pied-Lourd."
+			},
+			{
+				"name": "Force de la nature",
+				"type": "Permanent",
+				"description": "Sabaka Pied-Lourd ignore les effets de l'état Poison, Peur et Brulûre."
+			},
+			{
+				"name": "Forte tête",
+				"type": "Permanent",
+				"description": "Vous ne pouvez pas recruter d'autre combattant de type Chaka dans la même bande que Sabaka."
+			}
+		]
+	}
+]

@@ -1,0 +1,39 @@
+[
+	{
+		"name": "NGOZI SOUFFLE-COURT",
+		"faction": "bamaka",
+		"stigmate": "changement",
+		"type": ["mutant","beteferoce"],
+		"value": "25",	
+		"PSI": "3/2 wwwrr 1,2",
+		"CBT": "5/4 wwwrr 3",
+		"VIG": "4/3 wwwrr 4",
+		"RAP": "6/4 wwwrr 5",
+		"monture": "www 6",
+		"socle": "40mm",
+		"capacites": [
+			{
+				"name": "Ombre chasseresse",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Ngozi effectue gratuitement une action de Déplacement s'il n'est pas libre."
+			},
+			{
+				"name": "Défense parfaite",
+				"type": "Permanent",
+				"description": "Ngozi lance toujours 5 dés lorsqu'il effectue un jet de RAP pour une réaction d'Esquive. De plus, il peut effectuer gratuitement un réaction d'Esquive par tour."
+			},
+			{
+				"name": "Monture",
+				"type": "Action",
+				"cout": "(1PS, 2/tour)",
+				"description": "Choisissez un combattant situé à 15cm ou moins de Sigujana Esprit-Clair et possédant un pion Etat. Retirez ce pion Etat. Ce combattant subit ensuite un des effets suivants en fonction du pion retiré:\n -Pion Brûlure ou Peur: le combattant subit 2 blessures. Faites un jet de localisation pour chacune des blessures pour déterminer leur localisation. Si la cible ne perd pas de PC, alors la valeur de protection de ses équipements est diminuée de 1 jusuq'à la fin du tour. Enfin ce combattant gagne immédiatement 1 PA.\n -Pion Poison ou Rage: le combattant perd immédiatement 1 PA et gagne +1 VIG jusqu'à la fin du tour.\n -Pion ralentissement: le combattant gagne un pion feu ou un pion rage selon votre choix. De plus il bénéficie d'un bonus de +1 CBT jusqu'à la fin du tour."
+			},
+			{
+				"name": "Traqueur",
+				"type": "Permanent",
+				"description": "Les combattants alliés du clan Bamaka qui se trouvent à 15cm ou moins de Sigujana ignorent les effets de l'état Ralentissement."
+			}
+		]
+	}
+]

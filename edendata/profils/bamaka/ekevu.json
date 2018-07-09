@@ -1,0 +1,51 @@
+[
+	{
+		"name": "EKEVU OEIL-ASTUCIEUX",
+		"faction": "bamaka",
+		"stigmate": "protection",
+		"type": ["mutant"],
+		"value": "25",
+		"PSI": "4/2 wwrrr 1",
+		"CBT": "5/3 wwwwrr 2,3",
+		"VIG": "4/3 wwwwrr 4,5",
+		"RAP": "4 wwwww 6",
+		"socle": "40mm",
+		"capacites": [
+			{
+				"name": "Fouille",
+				"type": "Action",
+				"cout": "(2/tour)",
+				"description": "Ekevu Oeil-Astucieux fouille un élément de décors à 5cm ou moins. Pour cela il effectue un jet de PSI de difficulté 4. Si N'Dulu Ailes d'Acier est situé à 15cm ou moins d'Ekevu Oeil-Astucieux, il peut relancer tous les échecs de son jet de PSI. Les nouveaux résultats remplacent les anciens. Pour chaque réussite il gagne un marqueur Bidouille. Placez ensuite un pion 'Vide' sur le décor. Ekevu ne peut pas utiliser Fouille sur un élément de décors possédant un pion 'Vide'."
+			},
+			{
+				"name": "Récupération",
+				"type": "Permanent",
+				"description": "Ekevu récupère un marqueur Bidouille pour chaque combattant situé à 15cm ou moins et qui est retiré du terrain suite à des blessures l'ayant mis hors de combat. Les équipements de type Tech rapportent 2 marqueurs Bidouille au lieu d'un."
+			},
+			{
+				"name": "Arme improvisée",
+				"type": "Permanent",
+				"cout": "(1 Bidouille, 1/tour)",
+				"description": "Ekevu gagne l'équipement suivant jusqu'à la fin du tour: Arme improvisée (Tir): CBT-1, Portée(15), Pui(1)."
+			},
+			{
+				"name": "Armure improvisée",
+				"type": "Action",
+				"cout": "(1 Bidouille, 1/tour)",
+				"description": "Attribuez à un combattant allié situé à 15cm ou moins d'Ekevu un pion Armure improvisée. Lorsqu'un combattant subit des blessures, vous pouvez choisir de défausser un unique pion Armure improvisée qu'il possède au moment de cocher ses PC pour diminuer de 1 le nombre de PC que vous cochez pour ce combattant."
+			},
+			{
+				"name": "Bidouille toxique",
+				"type": "Action",
+				"cout": "(2 Bidouilles, 2/tour)",
+				"description": "Si un combattant adverse perd au moins 1 PC suite à la prochaine attaque d'Ekevu, ce combattant reçoit immédiatement un pion Poison."
+			},
+			{
+				"name": "Recyclage",
+				"type": "Permanent",
+				"cout": "(3 Bidouilles, 1/tour)",
+				"description": "Placez un marqueur Totem sur la carte d'Ekevu Oeil-Astucieux. A la fin de la partie, s'il est présent sur le terrain, vous gagnez 5PV par marqueur Totem présent sur la carte."
+			}
+		]
+	}
+]
