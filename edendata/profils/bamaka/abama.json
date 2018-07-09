@@ -1,0 +1,34 @@
+[
+	{
+		"name": "ABAMA GRAND-VENTRE",
+		"faction": "bamaka",
+		"stigmate": "protection",
+		"type": ["mutant"],
+		"value": "20",
+		"PSI": "3/2 wwwrr 1",
+		"CBT": "4/3 wwrrr 2",
+		"VIG": "5/4 wwwrrr 3,4",
+		"RAP": "3/2 wwwrr 5,6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Peau écailleuse",
+				"type": "Pr",
+				"description": "Complète+1"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Gardien des Arcanes",
+				"type": "Permanent",
+				"description": "Au début du premier tour, avant la détermination du premier joueur, désignez un combattant allié du clan des Bamaka possédant le type Sorcier. Tant que Abama est situé, même partiellement à 10cm ou moins du combattant désigné, ce combattant a une VIG équivalente à la VIG de Abama. De plus, à chaque fois qu'un combattant allié de type Sorcier est mis hors de combat et retiré du terrain suite à des blessures infligées par un combattant adverse, Abama gagne +1 en CBT jusqu'à la fin de la partie."
+			},
+			{
+				"name": "Ecrasement",
+				"type": "Action",
+				"cout": "(1PA, 1/tour)",
+				"description": "Abama effectue un déplacement de 10cm. Durant ce déplacement, il peut traverser les combattants adverses. Il ne peut finir ce déplacement au contact ou sur un combattant adverse. Chaque combattant adverse traversé effectue un jet de RAP en opposition avec Abama. Si le combattant perd ce jet il subit une blessure à chacun de ses membres qui ignore les protections."
+			}
+		]
+	}
+]

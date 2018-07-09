@@ -1,0 +1,40 @@
+[
+	{
+		"name": "TARAR GRANDS-PAS",
+		"faction": "bamaka",
+		"stigmate": "protection",
+		"type": ["mutant"],
+		"value": "30",
+		"PSI": "4/6 wwrrrr 1",
+		"CBT": "6/4 wwwrrrr 2",
+		"VIG": "4/3 wwwwrrr 3,4",
+		"RAP": "4/3 wwwwrrr 5,6",
+		"socle": "40mm",
+		"capacites": [
+			{
+				"name": "Hurlement de Guerre",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant adverse perd au moins 1 PC suite à une attaque de Tarar au corps-à-corps appliquez, selon votre choix un de effets supplémentaires suivant:\n - La cible perd 1PA ou reçoit un marqueur Ralentissement\n - La cible en peut pas effectuer d'action de Déplacement jusqu'à la fin du tour.",
+				"faq": "'suite à une attaque' Cette capacité peut être utilisée lors d'une réaction de riposte."
+			},
+			{
+				"name": "Faucher",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Lorsque Tarar effectue une action d'attaque de corps-à-corps, il peut activer cette capacité spéciale (au moment de désigner la cible de l'attaque). Il effectue l'attaque suivant les modalités normales de cette action, mais la cible ne peut pas effectuer la réaction Esquive."
+			},
+			{
+				"name": "Fureur de N'Gaï",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Tarar effectue un jet de CBT de difficulté 6. Pour chaque réussite, infligez une blessure à chaque membre à tous les combattants situés à 5cm ou moins de Tarar. Chaque combattant qui subit ces blessures peut dépenser 1PA pour effectuer un jet de RAP d'une difficulté égale au PSI de Tarar. S'il obtient au moins une réussite, il ne subit pas les blessures causées par cette capacité.",
+				"faq": "Fureur de N'Gaï n'est pas une attaque, c'est une capacité spéciale. Le combattant peut être libre quand il utilise cette capacité. Les CNJ sont affectés par cette capacité. Les CNJ n'ayant pas de PA, ils ne peuvent pas effectuer de test de RAP pour éviter de subir les blessures occasionnées par la Fureur de N'Gaï. Les éventuelles protections sont prises en compte."
+			},
+			{
+				"name": "Insensible",
+				"type": "Permanent",
+				"description": "Tarar ignore les effets de états Peur et Poison."
+			}
+		]
+	}
+]

@@ -1,0 +1,16 @@
+[
+	{
+		        "name": "Vindicatif",
+		        "type": "Action",
+		        "cout": "(1PA)",
+		        "description": "Sükh effectue une action gratuite d'engagement qui compte dans son nombre maximum d'actions",
+		        "faq": ""
+	},
+	{
+		        "name": "Inébranlable",
+		        "type": "Permanent",
+		        "cout": "(1PS,1/tour)",
+		        "description": "Lorsque Sükh est la cible d'une attaque de corps à corps, if effectue une réaction d'esquive gratuite",
+		        "faq": ""
+	}
+]

@@ -1,0 +1,29 @@
+[
+	{
+		"name": "FOLAYAN VENTRE-DOUX",
+		"faction": "bamaka",
+		"stigmate": "destruction",
+		"type": ["mutant"],
+		"value": "10",
+		"PSI": "2/1 wwrr 1",
+		"CBT": "3/2 wrrr 2,3",
+		"VIG": "3/2 wwrr 4,5",
+		"RAP": "3/2 wwrr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Bolas",
+				"type": "Tir",
+				"description": "CBT+1, Portée(15), Pui(1), 2/partie"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Bolas",
+				"type": "Permanent",
+				"description": "Si Folayan effectue une Attaque à distance avec son équipement Bolas, la cible de ce tir subit les effets suivant en fonction du jet de localisation (avant relocalisation):\n Si la localisation indique la Tête, la cible perd immédiatement 1PA et reçoit un marqueur Ralentissement.\n Si la localisation indique les Bras, la cible ne pourra effectuer les actions Attaque et Engagement ainsi que la réaction Riposte jusqu'à la fin de sa prochaine activation.\n Si la localisation indique le torse, la cible perd 1PC supplémentaire dans le Torse.\n Si la localisation indique les Jambes, la cible ne peut pas effectuer de mouvement (Action de Déplacement et Engagement ou toutes actions nécessitant un mouvement) jusqu'à la find e sa prochaine activation.",
+				"faq": "Les effets de cette capacité varient en fonction du résultat du jet de localisation, qui a lieu lors de l'étape 3 d'une Attaque à distance. Il faut donc obtenir au moins une réussite lors de l'étape 2, mais il n'est pas nécessaire de blesser la cible lors de l'étape 4 (voir p26: Attauqe avec un équipement de tir).\n 'Si la localisation du tir indique le Torse, la cible perd 1PC supplémentaire' Si la cible n'a subit aucune blessure au Torse (0 blessure), elle en subi une (1). Les protections sont prises en compte."
+			}
+		]
+	}
+]

@@ -1,0 +1,45 @@
+[
+	{
+		"name": "BAK",
+		"faction": "bamaka",
+		"stigmate": "chaos",
+		"type": ["mutant"],
+		"value": "15",	
+		"PSI": "2/1 wwwrr 1,2",
+		"CBT": "3/2 wwrrr 3",
+		"VIG": "3/2 wwwrrr 4,5",
+		"RAP": "4/3 wwwrr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Bouclier",
+				"type": "Pr",
+				"description": "Bras+1, Torse+1"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Appât",
+				"type": "Action",
+				"cout": "(1PA + 2PS, 1/tour)",
+				"description": "Désignez un combattant adverse situé à 10cm ou moins de Bak. Lors de sa prochaine activation, ce combattant, s'il est libre et qu'il en a la possibilité, devra effectuer une action d'Engagement dont la cible sera Bak."
+			},
+			{
+				"name": "Fratrie",
+				"type": "Action",
+				"cout": "(1PA, 2/tour)",
+				"description": "Dacké gagne 1 PA."
+			},
+			{
+				"name": "Harmonie fraternelle",
+				"type": "Permanent",
+				"description": "Lorsque Bak se retrouve à 15cm ou moins de Dacké, il bénéficie d'un bonus de +1 en RAP."
+			},
+			{
+				"name": "Discret",
+				"type": "Permanent",
+				"description": "Lorsque Bak est la cible d'une attaque de tir, les malus de CBT infligés par les obstacles comptent double."
+			}
+		]
+	}
+]

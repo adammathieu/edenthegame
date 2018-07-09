@@ -1,0 +1,32 @@
+[
+	{
+		"name": "LILITH",
+		"faction": "angesdedante",
+		"stigmate": "chaos",
+		"type": ["humain"],
+		"value": "25",
+		"PSI": "3/2 wwrrr 1",
+		"CBT": "5/4 wwwrr 2,3",
+		"VIG": "4/3 wwrrrr 4/5",
+		"RAP": "6/5 wwwrrr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Domination",
+				"type": "Action",
+				"cout": "(2PS, 1/tour, 2/partie)",
+				"description": "Désignez un combattant libre à 5cm ou moins de Lilith et qui possède encore au moins deux PA. Ce combattant perd un PA et Lilith en gagne un."
+			},
+			{
+				"name": "Persécution",
+				"type": "Permanent",
+				"description": "Les adversaires au contact de Lilith ne peuvent effectuer l'action Déplacement."
+			},
+			{
+				"name": "Cannibale",
+				"type": "Permanent",
+				"description": "Cette capacité est sans effet si Lilith n'a subi aucune blessure. Chaque fois que Lilith inflige une blessure à un combattant suite à une attauqe de corps-à-corps, elle est soignée d'1PC dnas le membre de votre choix."
+			}
+		]
+	}
+]

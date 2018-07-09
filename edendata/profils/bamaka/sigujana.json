@@ -1,0 +1,39 @@
+[
+	{
+		"name": "SIGUJANA ESPRIT-CLAIR",
+		"faction": "bamaka",
+		"stigmate": "changement",
+		"type": ["mutant","sorcier"],
+		"value": "25",
+		"PSI": "3/2 wwwr 1",
+		"CBT": "3/2 wwrr 2,3",
+		"VIG": "3/2 wwwrr 4,5",
+		"RAP": "4/3 wwrr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Vapeur Etourdissante",
+				"type": "Action",
+				"cout": "(1PS, 2/tour)",
+				"description": "Choisissez un combattant adverse situé à 15cm ou moins de Sigujana Esprit-Clair. Ce combattant et Sigujana Esprit-Clair effectuent un jet de PSI en opposition. Si Sigujana Esprit-Clair est le vainqueur, le combattant adverse gagne un pion ralentissement."
+			},
+			{
+				"name": "Brume hallucinatoire",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Sigujana effectue un test de PSI de difficulté 6. Choisissez un combattant adverse situé à 15cm ou moins de Sigujana qui reçoit un marqueur Peur pour chaque réussite."
+			},
+			{
+				"name": "Emanation mortelle",
+				"type": "Action",
+				"cout": "(1PS, 2/tour)",
+				"description": "Choisissez un combattant situé à 15cm ou moins de Sigujana Esprit-Clair et possédant un pion Etat. Retirez ce pion Etat. Ce combattant subit ensuite un des effets suivants en fonction du pion retiré:\n -Pion Brûlure ou Peur: le combattant subit 2 blessures. Faites un jet de localisation pour chacune des blessures pour déterminer leur localisation. Si la cible ne perd pas de PC, alors la valeur de protection de ses équipements est diminuée de 1 jusuq'à la fin du tour. Enfin ce combattant gagne immédiatement 1 PA.\n -Pion Poison ou Rage: le combattant perd immédiatement 1 PA et gagne +1 VIG jusqu'à la fin du tour.\n -Pion ralentissement: le combattant gagne un pion feu ou un pion rage selon votre choix. De plus il bénéficie d'un bonus de +1 CBT jusqu'à la fin du tour."
+			},
+			{
+				"name": "Aura spirituelle",
+				"type": "Permanent",
+				"description": "Les combattants alliés du clan Bamaka qui se trouvent à 15cm ou moins de Sigujana ignorent les effets de l'état Ralentissement."
+			}
+		]
+	}
+]

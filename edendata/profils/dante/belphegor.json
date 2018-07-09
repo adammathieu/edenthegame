@@ -1,0 +1,52 @@
+[
+	{
+		"name": "BELPHEGOR",
+		"faction": "angesdedante",
+		"stigmate": "changement",
+		"type": ["humain"],
+		"value": "25",
+		"PSI": "3/2 wwwr 1",
+		"CBT": "5/4 wwwrr 2,3",
+		"VIG": "4/3 wwwrr 4/5",
+		"RAP": "5/3 wwwrr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Masque de douleur",
+				"type": "Pr",
+				"description": "Tête+1"
+			},
+			{
+				"name": "Bouclier",
+				"type": "Pr",
+				"description": "Bras+1, Torse+1"
+			},
+			{
+				"name": "Renfort pectoral",
+				"type": "Pr",
+				"description": "Torse+1"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Réparation éclair",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "La moto d'un combattant allié de type Séraphin situé à 10cm ou moins de Belphégor est soignée de deux PC."
+			},
+			{
+				"name": "Custom",
+				"type": "Permanent",
+				"description": "Désignez un combattant allié de type Séraphin. Au début de la partie, juste avant le déploiement, vous pouvez changer le nom de sa moto par un autre de votre choix.",
+				"faq": "Il est possible d'avoir deux motos avec le même nom."
+			},
+			{
+				"name": "Duel",
+				"type": "Permanent",
+				"cout": "(2PS, 1/partie)",
+				"description": "Désignez un combattant adverse au contact de Belphégor. Ce combattant ne peut pas effectuer d'Action de déplacement tans qu'il est au contact de Belphégor.",
+				"faq": "Le Duel doit être annoncé avant le jet de désengagement. En effet, au moment où un combattant fait son jet de désengagement, le joueur a déjà annoncé qu'il effectuait une action de déplacement, et a payé son coût. Les effets de cette capacité s'appliquent tant que le combattant désigné est au contact du combattant qui utilise cette capacité. Ils perdurent donc d'un tour sur l'autre. 'Cette capacité empêche-t-elle l'utilisation de la capacité spéciale Évasion ou Écrasement?' Non, car le déplacement octroyé par ces capacités n'est pas une Action de déplacement (le combattant 'se déplace' ou 'effectue un déplacement'). Voir également FAQ: Généralités → Capacités donnant droit à une action."
+			}
+		]
+	}
+]

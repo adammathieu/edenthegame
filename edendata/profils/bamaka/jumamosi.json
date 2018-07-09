@@ -1,0 +1,39 @@
+[
+	{
+		"name": "JUMAMOSI OEIL-SINISTRE",
+		"faction": "bamaka",
+		"stigmate": "ordre",
+		"type": ["mutant","sorcier"],
+		"value": "20",
+		"PSI": "4/3 wwwr 1",
+		"CBT": "3/2 wwrr 2,3",
+		"VIG": "3/2 wwwrr 4,5",
+		"RAP": "4/3 wwrr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Aiguille de Douleur",
+				"type": "Action",
+				"cout": "(2PS, 1/tour)",
+				"description": "Désignez un adversaire situé à 15cm ou moins de Jumamosi et choisissez une de ses caractéristiques. Jusqu'à la fin du tour, il utilisera la valeur rouge de cette caractéristique."
+			},
+			{
+				"name": "Sang Noir",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Désignez un adversaire situé à 15cm ou moins de Jumamosi. Pour chaque marqueur Poison dont il est doté lancez 1D6. Choisissez un membre de ce combattant qui subit une blessure ignorant l'effet des protections si au moins un dé de ce jet indique un résultat strictement supérieur à la VIG de ce combattant."
+			},
+			{
+				"name": "Transfert d'Agonie",
+				"type": "Action",
+				"cout": "(2PS, 1/partie)",
+				"description": "Désignez un combattant allié situé à 15cm ou moins de Jumamosi et désignez un de ses membres qui est alors entièrement soigné. En contrepartie, infligez à Jumamosi autant de blessures que de PC soignés. Répartissez ces blessures comme vous le souhaitez entre les différents membres de Jumamosi."
+			},
+			{
+				"name": "Gardien des Âmes",
+				"type": "Permanent",
+				"description": "Chaque fois qu'un combattant allié (autre que Jumamosi) subit des blessures qui le mettent hors de combat, vous gagnez immédiatement un nombre de PS égal à sa valeur de PSI au moment où il est retiré du terrain."
+			}
+		]
+	}
+]

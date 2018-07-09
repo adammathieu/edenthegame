@@ -1,0 +1,34 @@
+[
+	{
+		"name": "GWALA ET AMAGUDU YEUX-DE-LUNE",
+		"faction": "bamaka",
+		"stigmate": "chaos",
+		"type": ["mutant"],
+		"value": "20",	
+		"PSI": "4/2 wwwrr 1,2",
+		"CBT": "4/3 wwrrr 3",
+		"VIG": "4/3 wwwrrr 4,5",
+		"RAP": "4/3 wwwrr 6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Bidon de dechet corrosifs",
+				"type": "Souffle/Tech",
+				"description": "Incapacitant/1, Poison/1, 1/partie"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Osmose charnelle",
+				"type": "Action",
+				"cout": "(1PS, 1/tour)",
+				"description": "Gwala et Amagudu effectue un test de PSI avec un seuil de difficulté 6. Vous pouvez payez X PS pour diminuer de X ce seuil de difficulté. Si vous obtenez au moins une réussite Gwala et Amagudu gagne 1PA."
+			},
+			{
+				"name": "Membre supplémentaire",
+				"type": "Permanent",
+				"description": "A chaque fois que Gwala et Amagudu effectuent un test de CBT ou de RAP vous pouvez relancer une fois un dé n'indiquant pas de réussite."
+			}
+		]
+	}
+]

@@ -3,5 +3,12 @@ python:
     - "3.6"
 addons:
     postgresql: "9.6"
+env:
+  - APP_SETTINGS="config.DevelopmentConfig" FLASK_APP=edenthegame.py FLASK_POSTGRES_URL="127.0.0.1:5432" FLASK_POSTGRES_USER="postgres" FLASK_POSTGRES_PW="postgres" FLASK_POSTGRES_DB="edendatatest" DATABASE_URL="postgresql+psycopg2://"
+before_script:
+  - psql -c 'create database edendatatest;' -U postgres
+  - export PYTHONPATH=$PYTHONPATH:$(pwd)
 script:
+    - flask db upgrade
+    - python edendata/exportStigmates.py
     - python test_app.py

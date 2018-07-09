@@ -1,0 +1,40 @@
+[
+	{
+		"name": "LAMAS",
+		"faction": "angesdedante",
+		"stigmate": "destruction",
+		"type": ["humain"],
+		"value": "20",
+		"PSI": "3/2 wwrr 1",
+		"CBT": "4/3 wwrrr 2,3",
+		"VIG": "4/3 wwwrr 4,5",
+		"RAP": "3/2 wwwr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Tronçonneuse",
+				"type": "Tech"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Tronçonneuse",
+				"type": "Permanent",
+				"cout": "(2PS)",
+				"description": "La prochaine fois que Lamas effectue une Attaque de corps-à-corps, elle subit un malus de -1 en CBT. En contrepartie, chaque réussite de son jet de CBT (après relocalisation et esquive) inflige 2 blessures au lieu d'une.",
+				"faq": "On double les blessures avant d'appliquer les effets des éventuelles protections. 'Puis-je combiner cette capacité avec l'effet de la carte tactique Attaque multiple ?' Non, l'effet de la tronçonneuse s'applique lors d'une attaque de corps-à-corps, l'effet de la carte tactique Attaque multiple est une capacité spéciale, il faut utiliser soit l'une soit l'autre (voir page 22 : Les Actions)."
+			},
+			{
+				"name": "Soif de sang",
+				"type": "Permanent",
+				"description": "Si Lamas se trouve à moins de 15cm ou moins d'un combattant qui est retiré du terrain après avoir subit des blessures, attribuez lui un pion rage. Vous pouvez ignorer cet effet si un combattant allié de type Séraphin est situé à 15cm ou moins de Lamas."
+			},
+			{
+				"name": "Insignifiante",
+				"type": "Permanent",
+				"description": "Tant qu'elle est situé à 5cm ou moins d'un combattant allié libre de type Séraphin, Lamas ne peut pas être la cible d'une Attaque.",
+				"faq": "Quand cette capacité est activée, le combattant qui en bénéficie ' ne peut pas être la cible d'une attaque '. Il est donc impossible d'initier une attaque de corps à corps ou une attaque à distance de tir contre ce combattant. En effet, lors de l'Étape 1 d'une attaque (désignation de la cible) ce combattant ne peut pas être choisi comme cible.\nEn revanche: - il est possible d'engager ce combattant. L'action d'attaque offerte par l'engagement est par contre impossible, pour la raison donnée ci-dessus (mais les 2 PA de l'engagement sont quand même dépensés). Attention : si le combattant qui effectue l'engagement contacte plusieurs combattants adverses, il faut vérifier si la condition de la capacité Insignifiant est toujours remplie : '...situé à 5 cm d'un combattant allié libre, de type [type variable suivant les profils]...'. Si cette condition n'est plus remplie, l'attaque est possible:\n - lors d'une attaque à distance avec un équipement de tir, le combattant insignifiant n'est pas considéré comme une cible valide. S'il est le combattant le plus proche d'un tireur, ce dernier peut l'ignorer, et c'est alors le second combattant le plus proche du tireur qui devient la cible valide. Le combattant Insignifiant peut néanmoins compter comme un obstacle pour le tireur s'il se trouve au moins partiellement dans sa ligne de vue (un tir peut même être impossible si le combattant Insignifiant obstrue complètement le couloir de tir – voir page 11 : La ligne de vue).\n- les équipements de jet et de souffle ne demande pas de désigner une cible, et sont donc utilisables contre ce combattant.\nLorsque qu'un combattant avec cette capacité effectue une attaque de corps à corps, la cible de cette attaque ne peut pas riposter si la condition '...situé à 5 cm d'un combattant allié libre...' est remplie."
+			}
+		]
+	}
+]

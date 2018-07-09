@@ -1,0 +1,43 @@
+[
+	{
+		"name": "NGOBO BRAS-VIF",
+		"faction": "bamaka",
+		"stigmate": "changement",
+		"type": ["mutant"],
+		"value": "25",
+		"PSI": "3/2 wwrrr 1",
+		"CBT": "5/4 wwwrr 2,3",
+		"VIG": "4/2 wwwrr 4,5",
+		"RAP": "6/4 wwrrr 6",
+		"socle": "30mm",
+		"capacites": [
+			{
+				"name": "Dissimulation",
+				"type": "Permanent",
+				"description": "Lors de la phase de préparation, vous pouvez choisir de ne pas déployer Ngobo et de le mettre en réserve. Lors d'une phase d'intendance de votre choix, vous pouvez alors choisir de déployer Ngobo où vous le souhaitez sur la table. Il ne peut néanmoins par être déployé à moins de 5cm d'un combattant adverse ni au contact d'un pion Objectif de mission. Tant que Ngobo n'est pas déployé, aucun effet de jeu ne peut l'affecter.",
+				"faq": "Un combattant avec cette capacité ne peut pas être la cible d'un effet de jeu (carte tactique, capacité, etc.) tant qu'il n'est pas sur le terrain. On déploie le combattant lors de l'étape 1 de la phase d'intendance de son choix (page 21)."
+			},
+			{
+				"name": "Assassinat",
+				"type": "Permanent",
+				"description": "Ngobo Bras-Vif bénéficie d'un bonus de +2 CBT lorsqu'il effectue un Engagement contre un combattant adverse ne possédant plus de PA. Ce bonus prend fin après la résolution de l'Attaque initiée par cet Engagement."
+			},
+			{
+				"name": "Epiderme empoisonné",
+				"type": "Permanent",
+				"description": "Lors que vous cochez le dernier PC blanc d'un membre de Ngobo Bras-Vif, tous les combattants à son contact reçoivent un pion poison."
+			},
+			{
+				"name": "Empoisonnement",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant adverse perd au moins un PC suite à une attaque de Ngwane, il reçoit un pion Poison.",
+				"faq": "'Lorsqu'un combattant adverse perd au moins 1 PC suite à une attaque' Les effets de cette capacité s'appliquent lors d'une attaque de corps-à-corps et lors d'une attaque à distance. Rappel : Seuls les combattants adverses sont affectés."
+			},
+			{
+				"name": "Attaque surprise",
+				"type": "Permanent",
+				"description": "Lorsque Ngobo effectue une action d'Engagement, la cible de cet Engagement ne peut pas effectuer de réaction de riposte sur l'Attaque initiée par cet engagement."
+			}
+		]
+	}
+]

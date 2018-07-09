@@ -1,0 +1,44 @@
+[
+	{
+		"name": "DACKE",
+		"faction": "bamaka",
+		"stigmate": "chaos",
+		"type": ["mutant"],
+		"value": "10",
+		"PSI": "3/2 wwwr 1,2",
+		"CBT": "3/2 wwrr 3",
+		"VIG": "3/2 wwwrr 4,5",
+		"RAP": "4/3 wwrr 6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Bouclier",
+				"type": "Pr",
+				"description": "Bras+1, Torse+1"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Protection fraternelle",
+				"type": "Action",
+				"cout": "(1PA, 1/tour)",
+				"description": "Lorsque Bak est la cible d'une action d'Engagement adverse, échangez la place de Bak et de Dacké avant l'attaque initiée par cet engagement. Dacké devient la nouvelle cible de cette action et l'attaque est alors résolue normalement contre lui."
+			},
+			{
+				"name": "Parade",
+				"type": "Permanent",
+				"description": "Lorsque Dacké effectue une réaction d'esquive, il bénéficie de l'équipement Bouclier Sacré (Pr): Complète+1 et vous pouvez relancer une fois chaque dé de jet d'esquive n'indiquant pas de réussite."
+			},
+			{
+				"name": "Harmonie fraternelle",
+				"type": "Permanent",
+				"description": "Lorsque Dacké se retrouve à 15cm ou moins de Dacké, il bénéficie d'un bonus de +1 en RAP."
+			},
+			{
+				"name": "Discret",
+				"type": "Permanent",
+				"description": "Lorsque Dacké est la cible d'une attaque de tir, les malus de CBT infligés par les obstacles comptent double."
+			}
+		]
+	}
+]

@@ -1,0 +1,83 @@
+[
+	{
+		"name": "NGWANE GRIFFE-ECLAIR",
+		"faction": "bamaka",
+		"stigmate": "changement",
+		"type": ["mutant","chaka"],
+		"value": "30",
+		"PSI": "4/2 wwrrr 1",
+		"CBT": "8/4 wwwrr 2",
+		"VIG": "4/3 wwwrrr 3,4",
+		"RAP": "5/3 wwwrrr 5,6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Sagaie",
+				"type": "Tir",
+				"description": "CBT-3 ,Portée(25), Pui(2), 1/partie"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Courage",
+				"type": "Permanent",
+				"description": "Ngwane ignore les effets de l'état Peur."
+			},
+			{
+				"name": "Empoisonnement",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant adverse perd au moins un PC suite à une attaque de Ngwane, il reçoit un pion Poison.",
+				"faq": "'Lorsqu'un combattant adverse perd au moins 1 PC suite à une attaque' Les effets de cette capacité s'appliquent lors d'une attaque de corps-à-corps et lors d'une attaque à distance. Rappel : Seuls les combattants adverses sont affectés."
+			},
+			{
+				"name": "Stabilité",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant est la cible d'une attaque de corps-à-corps de Ngwane, le seuil de difficulté d'esquive de ce combattant est de 5.",
+				"faq": "'...le seuil de difficulté des réactions d'esquive de ce combattant est de 5.' Le seuil de difficulté est de 5 quelque soit la valeur de CBT du combattant qui possède Stabilité."
+			}
+		]
+	},
+	{
+		"name": "NGWANE GRIFFE-ECLAIR",
+		"faction": "bamaka",
+		"stigmate": "changement",
+		"type": ["mutant","chaka"],
+		"value": "35",
+		"PSI": "4/2 wwrrr 1",
+		"CBT": "8/5 wwwrr 2",
+		"VIG": "4/3 wwwrrr 3,4",
+		"RAP": "5/6 wwwrrr 5,6",
+		"socle": "40mm",
+		"equipements": [
+			{
+				"name": "Sagaie",
+				"type": "Tir",
+				"description": "CBT-3 ,Portée(25), Pui(2), 1/partie"
+			},
+			{
+				"name": "Bouclier",
+				"type": "Pr",
+				"description": "Bras+1, Torse+1"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Courage",
+				"type": "Permanent",
+				"description": "Ngwane ignore les effets de l'état Peur."
+			},
+			{
+				"name": "Empoisonnement",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant adverse perd au moins un PC suite à une attaque de Ngwane, il reçoit un pion Poison.",
+				"faq": "'Lorsqu'un combattant adverse perd au moins 1 PC suite à une attaque' Les effets de cette capacité s'appliquent lors d'une attaque de corps-à-corps et lors d'une attaque à distance. Rappel : Seuls les combattants adverses sont affectés."
+			},
+			{
+				"name": "Stabilité",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant est la cible d'une attaque de corps-à-corps de Ngwane, le seuil de difficulté d'esquive de ce combattant est de 5.",
+				"faq": "'...le seuil de difficulté des réactions d'esquive de ce combattant est de 5.' Le seuil de difficulté est de 5 quelque soit la valeur de CBT du combattant qui possède Stabilité."
+			}
+		]
+	}
+]

@@ -4,11 +4,27 @@ import unittest
 
 class BasicTestCase(unittest.TestCase):
 
-    def test_index(self):
-        tester = app.test_client(self)
-        response = tester.get('/', content_type='html/text')
-        self.assertEqual(response.status_code, 200)
-        self.assertEqual(response.data, b'Hello, World!')
+	@classmethod
+	def setUpClass(cls):
+		pass 
+
+	@classmethod
+	def tearDownClass(cls):
+		pass 
+
+	def setUp(self):
+		# creates a test client
+		self.app = app.test_client()
+		# propagate the exceptions to the test client
+		self.app.testing = True 
+
+	def tearDown(self):
+		pass 
+
+	def test_home_status_code(self):
+		response = self.app.get('/', content_type='html/text')
+		# assert the status code of the response
+		self.assertEqual(response.status_code, 200)
 
 if __name__ == '__main__':
     unittest.main()

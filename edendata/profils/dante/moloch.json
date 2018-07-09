@@ -1,0 +1,29 @@
+[
+	{
+		"name": "MOLOCH",
+		"faction": "angesdedante",
+		"stigmate": "destruction",
+		"type": ["mutant"],
+		"value": "20",
+		"PSI": "2/1 wrrr 1",
+		"CBT": "4 wwwww 2",
+		"VIG": "4/3 wwwrr 3,4",
+		"RAP": "3/2 wwrrr 5,6",
+		"socle": "30mm",
+		"equipements": [
+			{
+				"name": "Fusil à phosphore",
+				"type": "Souffle, Tech",
+				"description": "Brûlure (1), 1/tour"
+			}
+		],
+		"capacites": [
+			{
+				"name": "Souffre-douleur",
+				"type": "Permanent",
+				"description": "Lorsqu'un combattant allié, situé à 15cm ou moins de Moloch reçoit un pion Etat, vous pouvez attribuer ce pion Etat à Moloch au lieu de l'attribuer à ce combattant.",
+				"faq": "'Si l'homme souffrance meurt suite au effets d'un pion brûlure qu'un allié lui a transféré, compte-t-il pour les PV adverses ?' Oui, on considère la première source en ce qui concerne les PV. Les dégâts redirigés sont considérés comme ayant été infligés par le joueur qui les a provoqué au départ. Voir également : FAQ Règles → 10.Les États → Brûlure (X) : http://de607.ispfr.net/forum/index.php?topic=4727.msg85434#msg85434"
+			}
+		]
+	}
+]
